@@ -88,7 +88,7 @@ export function Hero() {
         </Sticker>
 
         {collection.id === "evangelion" ? (
-          <div className="relative z-[2] w-[min(6804px,90%)] max-w-[min(6804px,90vw)] -rotate-[8deg]">
+          <div className="relative z-[2] w-[min(6804px,90%)] max-w-[min(6804px,90vw)] -rotate-[6deg]">
             <Image
               src="/hero-phone-case.png"
               alt={t("evangelion.heroImageAlt")}
@@ -101,7 +101,7 @@ export function Hero() {
           </div>
         ) : (
           <div
-            className="relative z-[2] w-[min(6156px,88%)] -rotate-[8deg] overflow-hidden rounded-[28px] border-[3px] border-ink shadow-none [aspect-ratio:10/19.5]"
+            className="relative z-[2] w-[min(6156px,88%)] -rotate-[6deg] overflow-hidden rounded-[28px] border-[3px] border-ink shadow-none [aspect-ratio:10/19.5]"
             style={{
               background:
                 "linear-gradient(180deg, rgba(255,255,255,.78), rgba(255,255,255,.34))",
