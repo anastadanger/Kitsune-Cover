@@ -95,7 +95,7 @@ export function Hero() {
               width={2000}
               height={2000}
               priority
-              className="h-auto w-full object-contain [filter:drop-shadow(0_4px_0_#000)]"
+              className="h-auto w-full object-contain [filter:drop-shadow(0_4px_0_#000)_contrast(1.2)]"
               sizes="(max-width: 1024px) 180vw, 13608px"
             />
           </div>
