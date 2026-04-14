@@ -88,20 +88,20 @@ export function Hero() {
         </Sticker>
 
         {collection.id === "evangelion" ? (
-          <div className="relative z-[2] w-[min(6804px,90%)] max-w-[min(6804px,90vw)] -rotate-[6deg]">
+          <div className="relative z-[2] w-[min(6804px,90%)] max-w-[min(6804px,90vw)] origin-center scale-[2] -rotate-[6deg]">
             <Image
               src="/hero-phone-case.png"
               alt={t("evangelion.heroImageAlt")}
-              width={1000}
-              height={1000}
+              width={2000}
+              height={2000}
               priority
               className="h-auto w-full object-contain [filter:drop-shadow(0_4px_0_#000)]"
-              sizes="(max-width: 1024px) 90vw, 6804px"
+              sizes="(max-width: 1024px) 180vw, 13608px"
             />
           </div>
         ) : (
           <div
-            className="relative z-[2] w-[min(6156px,88%)] -rotate-[6deg] overflow-hidden rounded-[28px] border-[3px] border-ink shadow-none [aspect-ratio:10/19.5]"
+            className="relative z-[2] w-[min(6156px,88%)] origin-center scale-[2] -rotate-[6deg] overflow-hidden rounded-[28px] border-[3px] border-ink shadow-none [aspect-ratio:10/19.5]"
             style={{
               background:
                 "linear-gradient(180deg, rgba(255,255,255,.78), rgba(255,255,255,.34))",
