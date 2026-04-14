@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-page: #f5f0ff;
+  --ink: #000000;
+  --paper: #ffffff;
+  --hot: #ff2d8b;
+  --volt: #ffe500;
+  --cyber: #00e5ff;
+  --deep: #7b2fff;
+  --collab-accent: #7b2fff;
+  --collab-accent-2: #00e5ff;
+  --hero-ink: #000000;
+}
+
+html {
+  background: var(--bg-page);
+}
+
+body {
+  @apply font-sans text-ink antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Y2K outline headline utility */
+.text-outline {
+  -webkit-text-stroke: 2px var(--ink);
+  color: transparent;
+}
+
+.text-outline-thin {
+  -webkit-text-stroke: 2px var(--ink);
+  color: transparent;
+}
+
+/* Neo-brutalist primitives */
+.neo-border {
+  border: 2px solid var(--ink);
+}
+
+.neo-border-fat {
+  border: 3px solid var(--ink);
+}
+
+/* Pill tags only */
+.pill {
+  border-radius: 999px;
+}
+
+/* JP vertical decorative stripe (制作について) */
+.jp-vertical-rail {
+  writing-mode: vertical-rl;
+  font-size: 9px;
+  letter-spacing: 0.3em;
+  color: #dddddd;
+}
+
+.chapter-digit {
+  font-size: 80px;
+  line-height: 0.85;
+  color: #f0e8ff;
+  -webkit-text-stroke: 2px #000000;
+}

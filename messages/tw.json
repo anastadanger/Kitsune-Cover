@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "title": "Kitsune Cover — 限量聯名策展"
+  },
+  "nav": {
+    "drops": "DROP",
+    "stories": "故事",
+    "shop": "商店",
+    "lang": {
+      "en": "EN",
+      "ja": "日本語",
+      "ko": "한국어",
+      "tw": "繁中"
+    }
+  },
+  "collections": {
+    "evangelion": "新世紀福音戰士",
+    "helloKitty": "HELLO KITTY",
+    "sailorMoon": "美少女戰士",
+    "ghost": "攻殼機動隊",
+    "doraemon": "哆啦A夢",
+    "totoro": "龍貓",
+    "tbd": "下一檔 DROP"
+  },
+  "dropsSection": {
+    "eyebrow": "策展",
+    "titleFill": "限量",
+    "titleOutline": "DROP",
+    "lead": "Each card works like an editorial product tile: clear drop status, partner-out links, and just enough context to feel collectible instead of disposable."
+  },
+  "storiesSection": {
+    "eyebrow": "文化脈絡",
+    "titleFill": "聯名",
+    "titleOutline": "故事",
+    "lead": "The site wins not by saying “buy this,” but by explaining why a drop matters — design cues, franchise DNA, and collector appeal across markets."
+  },
+  "shopGuide": {
+    "eyebrow": "網站定位",
+    "titleFill": "不是商店。",
+    "titleOutline": "是指南。",
+    "lead": "Kitsune Cover should present itself as a curated catalog for limited collab phone cases and accessories. Affiliate disclosure, brand distance, and editorial clarity should stay visible everywhere.",
+    "cards": [
+      {
+        "ip": "01 / Positioning",
+        "title": "Curated collab catalog",
+        "body": "Use language like showcase, selection, collector guide, and featured drop. Avoid posing as an official franchise store or a manufacturer."
+      },
+      {
+        "ip": "02 / Monetization",
+        "title": "Partner-linked access",
+        "body": "Buttons should lead to partner merchants. Keep disclosure clean and plain. The value is curation, context, and visual selection — not pretending to hold inventory."
+      },
+      {
+        "ip": "03 / Design system",
+        "title": "Neo-pop editorial",
+        "body": "Dark premium base, hard black borders, loud accent stickers, oversized type, and modular blocks. That keeps it collectible instead of turning into a cheap anime shop."
+      }
+    ]
+  },
+  "products": {
+    "viewDetails": "查看詳情",
+    "partnerShop": "合作商店 ↗"
+  },
+  "story": {
+    "readMore": "閱讀全文 →",
+    "jpVertical": "制作について · drop culture · tokyo street"
+  },
+  "footer": {
+    "stack": "Next.js · Tailwind · next-intl · 編輯式 DROP",
+    "payLine": "Line Pay · Apple Pay · Kakao Pay · Shop Pay"
+  },
+  "collectionDrops": {
+    "evangelion": {
+      "eyebrow": "LIMITED DROP · OFFICIAL COLLAB",
+      "titleFill": "EVANGELION",
+      "titleOutline": "DROP 01",
+      "sub": "A limited EVANGELION case drop built for fans of bold design, collector energy, and iconic mecha visuals. Rare collab pieces, sharp detailing, and a release made to stand out.",
+      "price": "From ¥6,800",
+      "meta": "ONLY 48 / 500 LEFT · JP / KR / TW / US",
+      "stickerA": "Limited · 500 units",
+      "stickerB": "Cyber collectible",
+      "phoneTag": "EVA PURPLE / CYBER CYAN",
+      "heroImageAlt": "EVANGELION × CASETiFY limited phone case — Rei Ayanami artwork",
+      "ctaPrimary": "VIEW DROP ↗",
+      "ctaSecondary": "SEE THE STORY →",
+      "label": "Evangelion",
+      "storyEyebrow": "Evangelion story",
+      "storyTitle": "Evangelion as collectible language",
+      "storyBody": "Built on industrial caution-strip energy and sleek sci-fi tension, Evangelion collabs work when they feel engineered — not cutesy. The right case design should echo control panels, warning graphics, and emotional severity.",
+      "products": [
+        {
+          "name": "Unit-01 Frame Case",
+          "ip": "Evangelion",
+          "status": "Drop live",
+          "price": "¥6,800",
+          "remaining": "48 / 500 remaining"
+        },
+        {
+          "name": "NERV Alert Shell",
+          "ip": "Evangelion",
+          "status": "Editor pick",
+          "price": "¥7,200",
+          "remaining": "115 / 400 remaining"
+        },
+        {
+          "name": "Geo Front Grid Cover",
+          "ip": "Evangelion",
+          "status": "Low stock",
+          "price": "¥6,500",
+          "remaining": "029 / 250 remaining"
+        }
+      ]
+    },
+    "helloKitty": {
+      "eyebrow": "Harajuku icon · soft power",
+      "titleFill": "Hello Kitty",
+      "titleOutline": "Drop 02",
+      "sub": "The strongest Hello Kitty collabs are not childish — they are instantly legible pop artifacts. Pink, charm energy, glossy surfaces, and a collector mindset do the work here.",
+      "price": "From ₩39,000",
+      "meta": "120 / 700 remaining · KR / JP / US",
+      "stickerA": "Best seller",
+      "stickerB": "Cute, not cheap",
+      "phoneTag": "PINK / ELECTRIC YELLOW",
+      "ctaPrimary": "View drop ↗",
+      "ctaSecondary": "Read collab story →",
+      "label": "Hello Kitty",
+      "storyEyebrow": "Hello Kitty story",
+      "storyTitle": "Hello Kitty as collectible language",
+      "storyBody": "Hello Kitty succeeds globally because it is more than kawaii. It is a visual language. Strong collabs know how to balance innocence, fashion gloss, and instantly collectible identity.",
+      "products": [
+        {
+          "name": "Ribbon Chrome Cover",
+          "ip": "Hello Kitty",
+          "status": "Restock",
+          "price": "₩39,000",
+          "remaining": "120 / 700 remaining"
+        },
+        {
+          "name": "Bubble Logo Shell",
+          "ip": "Hello Kitty",
+          "status": "Hot now",
+          "price": "$39",
+          "remaining": "061 / 300 remaining"
+        },
+        {
+          "name": "Mini Bow Mirror Case",
+          "ip": "Hello Kitty",
+          "status": "Collector note",
+          "price": "¥5,900",
+          "remaining": "088 / 450 remaining"
+        }
+      ]
+    },
+    "sailorMoon": {
+      "eyebrow": "Magical archive · moon signal",
+      "titleFill": "Sailor Moon",
+      "titleOutline": "Drop 03",
+      "sub": "This drop direction leans into wand motifs, transformation compact silhouettes, and ornamental framing without drowning the page in glitter overload.",
+      "price": "From $42",
+      "meta": "073 / 420 remaining · US / TW / JP",
+      "stickerA": "Moon archive",
+      "stickerB": "Limited shine",
+      "phoneTag": "LAVENDER / MOON YELLOW",
+      "ctaPrimary": "View drop ↗",
+      "ctaSecondary": "Read collab story →",
+      "label": "Sailor Moon",
+      "storyEyebrow": "Sailor Moon story",
+      "storyTitle": "Sailor Moon as collectible language",
+      "storyBody": "The visual DNA of Sailor Moon is ceremonial and symbolic. The winning drops feel like compact jewelry translated into device form, not generic pastel merch.",
+      "products": [
+        {
+          "name": "Crystal Compact Cover",
+          "ip": "Sailor Moon",
+          "status": "Editor pick",
+          "price": "$42",
+          "remaining": "073 / 420 remaining"
+        },
+        {
+          "name": "Moon Prism Shell",
+          "ip": "Sailor Moon",
+          "status": "Fresh drop",
+          "price": "NT$1,390",
+          "remaining": "156 / 600 remaining"
+        },
+        {
+          "name": "Silver Millennium Case",
+          "ip": "Sailor Moon",
+          "status": "Almost gone",
+          "price": "¥6,300",
+          "remaining": "021 / 280 remaining"
+        }
+      ]
+    },
+    "ghost": {
+      "eyebrow": "Tech noir · network body",
+      "titleFill": "Ghost in",
+      "titleOutline": "The Shell",
+      "sub": "Minimal cyan, black systems language, and tactical interface fragments create a more adult collectible mood for users who want cyberpunk without cosplay energy.",
+      "price": "From $46",
+      "meta": "064 / 360 remaining · US / KR / JP",
+      "stickerA": "System online",
+      "stickerB": "Collector signal",
+      "phoneTag": "CYAN / BLACK",
+      "ctaPrimary": "View drop ↗",
+      "ctaSecondary": "Read collab story →",
+      "label": "Ghost in the Shell",
+      "storyEyebrow": "Ghost in the Shell story",
+      "storyTitle": "Ghost in the Shell as collectible language",
+      "storyBody": "This franchise rewards restraint. Hard geometry, interface typography, and signal-noise aesthetics feel truer than over-illustrated fan-service graphics.",
+      "products": [
+        {
+          "name": "Section 9 Grid Case",
+          "ip": "Ghost in the Shell",
+          "status": "Curated pick",
+          "price": "$46",
+          "remaining": "064 / 360 remaining"
+        },
+        {
+          "name": "Thermoptic Shell",
+          "ip": "Ghost in the Shell",
+          "status": "Low stock",
+          "price": "₩52,000",
+          "remaining": "033 / 210 remaining"
+        },
+        {
+          "name": "Network Trace Cover",
+          "ip": "Ghost in the Shell",
+          "status": "New",
+          "price": "¥7,400",
+          "remaining": "149 / 500 remaining"
+        }
+      ]
+    },
+    "doraemon": {
+      "eyebrow": "Classic icon · future pocket",
+      "titleFill": "Doraemon",
+      "titleOutline": "Drop 05",
+      "sub": "The playful side of the site should still feel clean. Bright blue, circular gadget motifs, and iconic pocket cues are enough when the layout carries the premium weight.",
+      "price": "From ¥5,400",
+      "meta": "134 / 650 remaining · JP / TW",
+      "stickerA": "Friendly icon",
+      "stickerB": "Future pocket",
+      "phoneTag": "BLUE / WHITE",
+      "ctaPrimary": "View drop ↗",
+      "ctaSecondary": "Read collab story →",
+      "label": "Doraemon",
+      "storyEyebrow": "Doraemon story",
+      "storyTitle": "Doraemon as collectible language",
+      "storyBody": "Doraemon collabs land when nostalgia stays crisp. Instead of cluttering the artwork, a few unmistakable symbols can carry the entire emotional load.",
+      "products": [
+        {
+          "name": "Anywhere Door Cover",
+          "ip": "Doraemon",
+          "status": "New",
+          "price": "¥5,400",
+          "remaining": "134 / 650 remaining"
+        },
+        {
+          "name": "Future Pocket Shell",
+          "ip": "Doraemon",
+          "status": "Top wishlisted",
+          "price": "NT$1,190",
+          "remaining": "205 / 700 remaining"
+        },
+        {
+          "name": "Bell Pop Case",
+          "ip": "Doraemon",
+          "status": "Editor pick",
+          "price": "$34",
+          "remaining": "099 / 350 remaining"
+        }
+      ]
+    },
+    "totoro": {
+      "eyebrow": "Forest calm · collector warmth",
+      "titleFill": "Totoro",
+      "titleOutline": "Drop 06",
+      "sub": "Soft but not weak. This direction uses earthy green, roomy compositions, and quiet iconography to make the page feel intimate and collectible rather than childish.",
+      "price": "From $38",
+      "meta": "081 / 390 remaining · US / JP",
+      "stickerA": "Soft drop",
+      "stickerB": "Forest mood",
+      "phoneTag": "FOREST / WHITE",
+      "ctaPrimary": "View drop ↗",
+      "ctaSecondary": "Read collab story →",
+      "label": "Totoro",
+      "storyEyebrow": "Totoro story",
+      "storyTitle": "Totoro as collectible language",
+      "storyBody": "Totoro works best when the design leaves room for silence. You do not need visual noise when the character memory is already strong enough.",
+      "products": [
+        {
+          "name": "Camphor Tree Shell",
+          "ip": "Totoro",
+          "status": "Low stock",
+          "price": "$38",
+          "remaining": "081 / 390 remaining"
+        },
+        {
+          "name": "Night Bus Stop Cover",
+          "ip": "Totoro",
+          "status": "Curated",
+          "price": "¥6,100",
+          "remaining": "042 / 240 remaining"
+        },
+        {
+          "name": "Acorn Friends Case",
+          "ip": "Totoro",
+          "status": "Fresh drop",
+          "price": "NT$1,260",
+          "remaining": "118 / 460 remaining"
+        }
+      ]
+    },
+    "tbd": {
+      "eyebrow": "Coming soon · drop queue",
+      "titleFill": "Next",
+      "titleOutline": "Collab",
+      "sub": "Reserve one slot in the system for future launches. That makes the site feel ongoing, collectible, and editorially alive instead of frozen after first publish.",
+      "price": "TBD",
+      "meta": "Launch queue open · add to watchlist",
+      "stickerA": "Coming soon",
+      "stickerB": "Watch this slot",
+      "phoneTag": "TBD / ACTIVE SLOT",
+      "ctaPrimary": "View drop ↗",
+      "ctaSecondary": "Read collab story →",
+      "label": "Upcoming",
+      "storyEyebrow": "Next drop story",
+      "storyTitle": "Next as collectible language",
+      "storyBody": "A reserved future slot helps the homepage read like a living magazine. It suggests cadence, curation, and an expectation of the next cultural object.",
+      "products": [
+        {
+          "name": "Mystery Signal Cover",
+          "ip": "Upcoming",
+          "status": "Teaser",
+          "price": "TBD",
+          "remaining": "Launch queue open"
+        },
+        {
+          "name": "Unannounced Shell",
+          "ip": "Upcoming",
+          "status": "Preview",
+          "price": "TBD",
+          "remaining": "Partner lock pending"
+        },
+        {
+          "name": "Collector Waitlist Case",
+          "ip": "Upcoming",
+          "status": "Soon",
+          "price": "TBD",
+          "remaining": "Drop date unlisted"
+        }
+      ]
+    }
+  }
+}
