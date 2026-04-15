@@ -61,17 +61,79 @@ export function Hero() {
         style={{ color: "var(--hero-ink)" }}
       >
         <div
-          className="pointer-events-none absolute left-[8%] top-[10%] h-[180px] w-[180px] rounded-full border-[3px] border-ink bg-volt/55 opacity-90"
+          className="pointer-events-none absolute inset-0 -m-6 z-0 overflow-hidden"
           aria-hidden
-        />
-        <div
-          className="pointer-events-none absolute -bottom-10 -right-5 h-[320px] w-[320px] rounded-full border-[3px] border-ink bg-paper/20 opacity-90"
-          aria-hidden
-        />
-        <div
-          className="pointer-events-none absolute right-[12%] top-[20%] h-[90px] w-[90px] rounded-full border-[3px] border-ink bg-cyber/60 opacity-90"
-          aria-hidden
-        />
+        >
+          <motion.div
+            className="absolute left-[4%] top-[5%] h-[min(172px,32vw)] w-[min(172px,32vw)] rounded-full border-[3px] border-ink bg-[#d4a096]"
+            animate={{ y: [0, -16, 0], x: [0, 8, 0] }}
+            transition={{
+              duration: 8,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+          />
+          <motion.div
+            className="absolute right-[6%] top-[10%] h-[min(68px,14vw)] w-[min(68px,14vw)] rounded-full border-[3px] border-ink bg-[#8fd4ee]"
+            animate={{ y: [0, 14, 0], x: [0, -10, 0] }}
+            transition={{
+              duration: 5.8,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 0.4,
+            }}
+          />
+          <motion.div
+            className="absolute bottom-0 right-0 h-[min(320px,78vw)] w-[min(320px,78vw)] translate-x-[28%] translate-y-[32%] rounded-full border-[3px] border-ink bg-[#c9b3f0]"
+            animate={{ y: [0, 12, 0], scale: [1, 1.03, 1] }}
+            transition={{
+              duration: 10,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 0.2,
+            }}
+          />
+          <motion.div
+            className="absolute bottom-[22%] left-[8%] h-[52px] w-[52px] rounded-full border-[3px] border-ink bg-[#e8a898]"
+            animate={{ y: [0, -12, 0], scale: [1, 1.06, 1] }}
+            transition={{
+              duration: 6.5,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 1.1,
+            }}
+          />
+          <motion.div
+            className="absolute left-[18%] top-[42%] h-[38px] w-[38px] rounded-full border-[3px] border-ink bg-[#a8d8f0]"
+            animate={{ y: [0, 10, 0], x: [0, 12, 0] }}
+            transition={{
+              duration: 7.2,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 0.7,
+            }}
+          />
+          <motion.div
+            className="absolute right-[22%] top-[38%] h-[min(96px,20vw)] w-[min(96px,20vw)] rounded-full border-[3px] border-ink bg-volt"
+            animate={{ y: [0, -14, 0], x: [0, -9, 0] }}
+            transition={{
+              duration: 6.8,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 0.15,
+            }}
+          />
+          <motion.div
+            className="absolute bottom-[30%] right-[8%] h-[min(84px,18vw)] w-[min(84px,18vw)] rounded-full border-[3px] border-ink bg-hot"
+            animate={{ y: [0, 16, 0], scale: [1, 1.05, 1] }}
+            transition={{
+              duration: 7.5,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 0.9,
+            }}
+          />
+        </div>
 
         <Sticker
           tone="volt"
