@@ -6,12 +6,64 @@
     "drops": "드롭",
     "stories": "스토리",
     "shop": "샵",
+    "customStudio": "커스텀 스튜디오",
     "lang": {
       "en": "EN",
       "ja": "日本語",
       "ko": "한국어",
       "tw": "繁中"
     }
+  },
+  "customStudio": {
+    "metaTitle": "커스텀 스튜디오 — Kitsune Cover",
+    "metaDescription": "폰 케이스 커스터마이징: 프린트, 클리어 소재, 카메라 주변 그래픽, 그립, MagSafe 호환 등을 사진 예시와 함께 정리했습니다.",
+    "eyebrow": "디자인 랩",
+    "titleFill": "커스텀",
+    "titleOutline": "스튜디오",
+    "lead": "케이스는 단순한 보호壳이 아니다. 콜라보 그래픽과 나만의 아트 사이에서 커스텀은 폰을 ‘움직이는 포스터’로 바꾼다.",
+    "intro": "CASETiFY 같은 브랜드가 대중화한 모듈형 흐름: 이미지 업로드, 라인 선택, 카메라 링·스트랩·MagSafe 애드온 레이어. 잘된 결과는 편집 디자인처럼 보이고, 스티커 덕지덕지와는 다르다.",
+    "typesTitle": "커스터마이징 항목",
+    "types": [
+      {
+        "title": "프린트 & 마감",
+        "body": "에지 투 에지 UV 스타일 프린트, 글로시/매트 탑코트 — 모서리 충격에도 들뜨지 않는 그래픽."
+      },
+      {
+        "title": "클리어 & 틴트 베이스",
+        "body": "기기 색을 드러내는 크리스털 클리어, 눈부심과 지문을 줄이는 스모크·프로스트."
+      },
+      {
+        "title": "카메라 아일랜드 그래픽",
+        "body": "렌즈 스택 주변의 링, 스트라이프, 타이포로 카메라 모듈을 액자처럼 보이게."
+      },
+      {
+        "title": "그립 & 스탠드",
+        "body": "손가락 루프, 접이식 스탠드, 카드 포켓 등 호환 셸에 부착해 한 손 사용·여행에."
+      },
+      {
+        "title": "MagSafe 정렬",
+        "body": "충전기·월렛용 자석 배치. 아트를 확정하기 전에 간섭이 없는지 확인해 액세서리 스냅을 유지."
+      }
+    ],
+    "galleryTitle": "레퍼런스 무드",
+    "galleryLead": "에디토리얼 느낌을 줄 때 쓰는 세 방향: 강한 프린트, 절제된 클리어, 액세서리 중심.",
+    "gallery": [
+      {
+        "alt": "대담한 그래픽이 인쇄된 폰 케이스",
+        "caption": "풀 블리드 프린트 — 아트가 주도하고 하드웨어는 조용히."
+      },
+      {
+        "alt": "투명 케이스를 낀 스마트폰",
+        "caption": "클리어 베이스 — 본체 색이 팔레트의 일부가 된다."
+      },
+      {
+        "alt": "카메라 렌즈와 그래픽 악센트 클로즈업",
+        "caption": "렌즈 존을 레이아웃 그리드로 — 스트라이프가 카메라 열을 따라간다."
+      }
+    ],
+    "ctaTitle": "커스텀 빌더 열기",
+    "ctaButton": "Custom",
+    "ctaHint": "파트너 링크 — 여기서 커스텀하면 이 쇼케이스를 지원하게 됩니다."
   },
   "collections": {
     "evangelion": "에반게리온",
@@ -75,7 +127,7 @@
       "titleFill": "EVANGELION",
       "titleOutline": "DROP 01",
       "sub": "A limited EVANGELION case drop built for fans of bold design, collector energy, and iconic mecha visuals. Rare collab pieces, sharp detailing, and a release made to stand out.",
-      "price": "From ¥6,800",
+      "price": "From $45",
       "meta": "ONLY 48 / 500 LEFT · JP / KR / TW / US",
       "stickerA": "Limited · 500 units",
       "stickerB": "Cyber collectible",
@@ -92,21 +144,21 @@
           "name": "Unit-01 Frame Case",
           "ip": "Evangelion",
           "status": "Drop live",
-          "price": "¥6,800",
+          "price": "$45",
           "remaining": "48 / 500 remaining"
         },
         {
           "name": "NERV Alert Shell",
           "ip": "Evangelion",
           "status": "Editor pick",
-          "price": "¥7,200",
+          "price": "$48",
           "remaining": "115 / 400 remaining"
         },
         {
           "name": "Geo Front Grid Cover",
           "ip": "Evangelion",
           "status": "Low stock",
-          "price": "¥6,500",
+          "price": "$44",
           "remaining": "029 / 250 remaining"
         }
       ]
@@ -116,7 +168,7 @@
       "titleFill": "Hello Kitty",
       "titleOutline": "Drop 02",
       "sub": "The strongest Hello Kitty collabs are not childish — they are instantly legible pop artifacts. Pink, charm energy, glossy surfaces, and a collector mindset do the work here.",
-      "price": "From ₩39,000",
+      "price": "From $29",
       "meta": "120 / 700 remaining · KR / JP / US",
       "stickerA": "Best seller",
       "stickerB": "Cute, not cheap",
@@ -132,7 +184,7 @@
           "name": "Ribbon Chrome Cover",
           "ip": "Hello Kitty",
           "status": "Restock",
-          "price": "₩39,000",
+          "price": "$29",
           "remaining": "120 / 700 remaining"
         },
         {
@@ -146,7 +198,7 @@
           "name": "Mini Bow Mirror Case",
           "ip": "Hello Kitty",
           "status": "Collector note",
-          "price": "¥5,900",
+          "price": "$40",
           "remaining": "088 / 450 remaining"
         }
       ]
@@ -179,14 +231,14 @@
           "name": "Moon Prism Shell",
           "ip": "Sailor Moon",
           "status": "Fresh drop",
-          "price": "NT$1,390",
+          "price": "$44",
           "remaining": "156 / 600 remaining"
         },
         {
           "name": "Silver Millennium Case",
           "ip": "Sailor Moon",
           "status": "Almost gone",
-          "price": "¥6,300",
+          "price": "$42",
           "remaining": "021 / 280 remaining"
         }
       ]
@@ -219,14 +271,14 @@
           "name": "Thermoptic Shell",
           "ip": "Ghost in the Shell",
           "status": "Low stock",
-          "price": "₩52,000",
+          "price": "$39",
           "remaining": "033 / 210 remaining"
         },
         {
           "name": "Network Trace Cover",
           "ip": "Ghost in the Shell",
           "status": "New",
-          "price": "¥7,400",
+          "price": "$49",
           "remaining": "149 / 500 remaining"
         }
       ]
@@ -236,7 +288,7 @@
       "titleFill": "Doraemon",
       "titleOutline": "Drop 05",
       "sub": "The playful side of the site should still feel clean. Bright blue, circular gadget motifs, and iconic pocket cues are enough when the layout carries the premium weight.",
-      "price": "From ¥5,400",
+      "price": "From $36",
       "meta": "134 / 650 remaining · JP / TW",
       "stickerA": "Friendly icon",
       "stickerB": "Future pocket",
@@ -252,14 +304,14 @@
           "name": "Anywhere Door Cover",
           "ip": "Doraemon",
           "status": "New",
-          "price": "¥5,400",
+          "price": "$36",
           "remaining": "134 / 650 remaining"
         },
         {
           "name": "Future Pocket Shell",
           "ip": "Doraemon",
           "status": "Top wishlisted",
-          "price": "NT$1,190",
+          "price": "$38",
           "remaining": "205 / 700 remaining"
         },
         {
@@ -299,14 +351,14 @@
           "name": "Night Bus Stop Cover",
           "ip": "Totoro",
           "status": "Curated",
-          "price": "¥6,100",
+          "price": "$41",
           "remaining": "042 / 240 remaining"
         },
         {
           "name": "Acorn Friends Case",
           "ip": "Totoro",
           "status": "Fresh drop",
-          "price": "NT$1,260",
+          "price": "$40",
           "remaining": "118 / 460 remaining"
         }
       ]

@@ -6,12 +6,64 @@
     "drops": "DROP",
     "stories": "故事",
     "shop": "商店",
+    "customStudio": "Custom Studio",
     "lang": {
       "en": "EN",
       "ja": "日本語",
       "ko": "한국어",
       "tw": "繁中"
     }
+  },
+  "customStudio": {
+    "metaTitle": "Custom Studio — Kitsune Cover",
+    "metaDescription": "手機殼客製：印刷、透明款、鏡頭周邊設計、支架／指環、MagSafe 相容等，附參考圖。",
+    "eyebrow": "設計實驗室",
+    "titleFill": "Custom",
+    "titleOutline": "studio",
+    "lead": "保護殼不只是護具。在聯名圖稿與個人創作之間，客製讓手機變成可攜帶的海報。",
+    "intro": "像 CASETiFY 這類品牌把模組化流程做主流：上傳圖、選殼型，再疊加鏡頭環、掛繩或 MagSafe 配件。好的成品像編輯排版，而不是貼紙拼貼。",
+    "typesTitle": "可以客製什麼",
+    "types": [
+      {
+        "title": "印刷與表面",
+        "body": "滿版類 UV 風印刷，亮面或霧面保護層——角落撞擊也不容易龜裂或剝落。"
+      },
+      {
+        "title": "透明與霧染底殼",
+        "body": "水晶透明露出機身色，或煙霧、霧面降低指紋與反光。"
+      },
+      {
+        "title": "鏡頭島視覺",
+        "body": "在鏡頭模組周圍加入線條、字樣與框線，讓鏡頭區像設計過的畫框。"
+      },
+      {
+        "title": "支架與握持配件",
+        "body": "指環、摺疊支架、卡夾等，可裝在相容殼上，方便單手與旅行。"
+      },
+      {
+        "title": "MagSafe 對位",
+        "body": "磁吸位置對應充電器與卡包——定稿前確認圖稿不會干擾吸附手感。"
+      }
+    ],
+    "galleryTitle": "風格參考",
+    "galleryLead": "三種常見方向：強烈印刷、克制的透明款、配件感重的配置。",
+    "gallery": [
+      {
+        "alt": "印有大膽圖像的手機殼",
+        "caption": "滿版印刷——圖像主導，硬體退後。"
+      },
+      {
+        "alt": "裝在透明殼內的手機",
+        "caption": "透明底——機身顏色成為配色的一部分。"
+      },
+      {
+        "alt": "鏡頭與圖形裝飾特寫",
+        "caption": "鏡頭區當排版格線——線條呼應鏡頭排列。"
+      }
+    ],
+    "ctaTitle": "開啟客製編輯器",
+    "ctaButton": "Custom",
+    "ctaHint": "合作連結——由此進入客製可支持本站策展內容。"
   },
   "collections": {
     "evangelion": "新世紀福音戰士",
@@ -75,7 +127,7 @@
       "titleFill": "EVANGELION",
       "titleOutline": "DROP 01",
       "sub": "A limited EVANGELION case drop built for fans of bold design, collector energy, and iconic mecha visuals. Rare collab pieces, sharp detailing, and a release made to stand out.",
-      "price": "From ¥6,800",
+      "price": "From $45",
       "meta": "ONLY 48 / 500 LEFT · JP / KR / TW / US",
       "stickerA": "Limited · 500 units",
       "stickerB": "Cyber collectible",
@@ -92,21 +144,21 @@
           "name": "Unit-01 Frame Case",
           "ip": "Evangelion",
           "status": "Drop live",
-          "price": "¥6,800",
+          "price": "$45",
           "remaining": "48 / 500 remaining"
         },
         {
           "name": "NERV Alert Shell",
           "ip": "Evangelion",
           "status": "Editor pick",
-          "price": "¥7,200",
+          "price": "$48",
           "remaining": "115 / 400 remaining"
         },
         {
           "name": "Geo Front Grid Cover",
           "ip": "Evangelion",
           "status": "Low stock",
-          "price": "¥6,500",
+          "price": "$44",
           "remaining": "029 / 250 remaining"
         }
       ]
@@ -116,7 +168,7 @@
       "titleFill": "Hello Kitty",
       "titleOutline": "Drop 02",
       "sub": "The strongest Hello Kitty collabs are not childish — they are instantly legible pop artifacts. Pink, charm energy, glossy surfaces, and a collector mindset do the work here.",
-      "price": "From ₩39,000",
+      "price": "From $29",
       "meta": "120 / 700 remaining · KR / JP / US",
       "stickerA": "Best seller",
       "stickerB": "Cute, not cheap",
@@ -132,7 +184,7 @@
           "name": "Ribbon Chrome Cover",
           "ip": "Hello Kitty",
           "status": "Restock",
-          "price": "₩39,000",
+          "price": "$29",
           "remaining": "120 / 700 remaining"
         },
         {
@@ -146,7 +198,7 @@
           "name": "Mini Bow Mirror Case",
           "ip": "Hello Kitty",
           "status": "Collector note",
-          "price": "¥5,900",
+          "price": "$40",
           "remaining": "088 / 450 remaining"
         }
       ]
@@ -179,14 +231,14 @@
           "name": "Moon Prism Shell",
           "ip": "Sailor Moon",
           "status": "Fresh drop",
-          "price": "NT$1,390",
+          "price": "$44",
           "remaining": "156 / 600 remaining"
         },
         {
           "name": "Silver Millennium Case",
           "ip": "Sailor Moon",
           "status": "Almost gone",
-          "price": "¥6,300",
+          "price": "$42",
           "remaining": "021 / 280 remaining"
         }
       ]
@@ -219,14 +271,14 @@
           "name": "Thermoptic Shell",
           "ip": "Ghost in the Shell",
           "status": "Low stock",
-          "price": "₩52,000",
+          "price": "$39",
           "remaining": "033 / 210 remaining"
         },
         {
           "name": "Network Trace Cover",
           "ip": "Ghost in the Shell",
           "status": "New",
-          "price": "¥7,400",
+          "price": "$49",
           "remaining": "149 / 500 remaining"
         }
       ]
@@ -236,7 +288,7 @@
       "titleFill": "Doraemon",
       "titleOutline": "Drop 05",
       "sub": "The playful side of the site should still feel clean. Bright blue, circular gadget motifs, and iconic pocket cues are enough when the layout carries the premium weight.",
-      "price": "From ¥5,400",
+      "price": "From $36",
       "meta": "134 / 650 remaining · JP / TW",
       "stickerA": "Friendly icon",
       "stickerB": "Future pocket",
@@ -252,14 +304,14 @@
           "name": "Anywhere Door Cover",
           "ip": "Doraemon",
           "status": "New",
-          "price": "¥5,400",
+          "price": "$36",
           "remaining": "134 / 650 remaining"
         },
         {
           "name": "Future Pocket Shell",
           "ip": "Doraemon",
           "status": "Top wishlisted",
-          "price": "NT$1,190",
+          "price": "$38",
           "remaining": "205 / 700 remaining"
         },
         {
@@ -299,14 +351,14 @@
           "name": "Night Bus Stop Cover",
           "ip": "Totoro",
           "status": "Curated",
-          "price": "¥6,100",
+          "price": "$41",
           "remaining": "042 / 240 remaining"
         },
         {
           "name": "Acorn Friends Case",
           "ip": "Totoro",
           "status": "Fresh drop",
-          "price": "NT$1,260",
+          "price": "$40",
           "remaining": "118 / 460 remaining"
         }
       ]

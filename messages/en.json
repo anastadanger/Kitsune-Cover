@@ -6,7 +6,59 @@
     "drops": "Drops",
     "stories": "Stories",
     "shop": "Shop",
+    "customStudio": "Custom Studio",
     "lang": { "en": "EN", "ja": "日本語", "ko": "한국어", "tw": "繁中" }
+  },
+  "customStudio": {
+    "metaTitle": "Custom Studio — Kitsune Cover",
+    "metaDescription": "How phone case customization works: prints, clear styles, camera accents, grips, and MagSafe-ready builds — with visual references.",
+    "eyebrow": "Design lab",
+    "titleFill": "Custom",
+    "titleOutline": "studio",
+    "lead": "Not every case is a plain shell. Between official collab graphics and personal artwork, customization turns a phone into a wearable poster.",
+    "intro": "Brands like CASETiFY made modular flows mainstream: upload art, pick a case line, then layer camera rings, straps, or MagSafe add-ons. The best results read intentional — editorial layout, not random stickers.",
+    "typesTitle": "What you can customize",
+    "types": [
+      {
+        "title": "Print & finish",
+        "body": "Edge-to-edge UV-style prints with glossy or matte top coats — graphics that survive corner impacts without flaking."
+      },
+      {
+        "title": "Clear & tinted bases",
+        "body": "Crystal clears to show the device finish, or smoke and frost tints that soften glare and fingerprints."
+      },
+      {
+        "title": "Camera island graphics",
+        "body": "Rings, stripes, and type around the lens stack so the camera module reads as a designed frame."
+      },
+      {
+        "title": "Grip & stand add-ons",
+        "body": "Finger loops, fold stands, and card pockets that attach to compatible shells for one-handed use and travel."
+      },
+      {
+        "title": "MagSafe alignment",
+        "body": "Magnet layouts matched to chargers and wallets — confirm compatibility before locking your artwork so accessories snap cleanly."
+      }
+    ],
+    "galleryTitle": "Reference mood",
+    "galleryLead": "Three directions teams use when a case should feel editorial: loud print, disciplined clear, accessory-forward.",
+    "gallery": [
+      {
+        "alt": "Bold graphic artwork on a phone case",
+        "caption": "Full-bleed print — artwork leads, hardware stays quiet."
+      },
+      {
+        "alt": "Transparent phone case on a handset",
+        "caption": "Clear base — the phone color becomes part of the palette."
+      },
+      {
+        "alt": "Phone camera module close-up with graphic accents",
+        "caption": "Lens zone as a layout grid — stripes echo the camera cluster."
+      }
+    ],
+    "ctaTitle": "Open the custom builder",
+    "ctaButton": "Custom",
+    "ctaHint": "Partner link — using it supports this showcase when you customize."
   },
   "collections": {
     "evangelion": "Evangelion",
@@ -70,7 +122,7 @@
       "titleFill": "EVANGELION",
       "titleOutline": "DROP 01",
       "sub": "A limited EVANGELION case drop built for fans of bold design, collector energy, and iconic mecha visuals. Rare collab pieces, sharp detailing, and a release made to stand out.",
-      "price": "From ¥6,800",
+      "price": "From $45",
       "meta": "ONLY 48 / 500 LEFT · JP / KR / TW / US",
       "stickerA": "Limited · 500 units",
       "stickerB": "Cyber collectible",
@@ -87,21 +139,21 @@
           "name": "Unit-01 Frame Case",
           "ip": "Evangelion",
           "status": "Drop live",
-          "price": "¥6,800",
+          "price": "$45",
           "remaining": "48 / 500 remaining"
         },
         {
           "name": "NERV Alert Shell",
           "ip": "Evangelion",
           "status": "Editor pick",
-          "price": "¥7,200",
+          "price": "$48",
           "remaining": "115 / 400 remaining"
         },
         {
           "name": "Geo Front Grid Cover",
           "ip": "Evangelion",
           "status": "Low stock",
-          "price": "¥6,500",
+          "price": "$44",
           "remaining": "029 / 250 remaining"
         }
       ]
@@ -111,7 +163,7 @@
       "titleFill": "Hello Kitty",
       "titleOutline": "Drop 02",
       "sub": "The strongest Hello Kitty collabs are not childish — they are instantly legible pop artifacts. Pink, charm energy, glossy surfaces, and a collector mindset do the work here.",
-      "price": "From ₩39,000",
+      "price": "From $29",
       "meta": "120 / 700 remaining · KR / JP / US",
       "stickerA": "Best seller",
       "stickerB": "Cute, not cheap",
@@ -127,7 +179,7 @@
           "name": "Ribbon Chrome Cover",
           "ip": "Hello Kitty",
           "status": "Restock",
-          "price": "₩39,000",
+          "price": "$29",
           "remaining": "120 / 700 remaining"
         },
         {
@@ -141,7 +193,7 @@
           "name": "Mini Bow Mirror Case",
           "ip": "Hello Kitty",
           "status": "Collector note",
-          "price": "¥5,900",
+          "price": "$40",
           "remaining": "088 / 450 remaining"
         }
       ]
@@ -174,14 +226,14 @@
           "name": "Moon Prism Shell",
           "ip": "Sailor Moon",
           "status": "Fresh drop",
-          "price": "NT$1,390",
+          "price": "$44",
           "remaining": "156 / 600 remaining"
         },
         {
           "name": "Silver Millennium Case",
           "ip": "Sailor Moon",
           "status": "Almost gone",
-          "price": "¥6,300",
+          "price": "$42",
           "remaining": "021 / 280 remaining"
         }
       ]
@@ -214,14 +266,14 @@
           "name": "Thermoptic Shell",
           "ip": "Ghost in the Shell",
           "status": "Low stock",
-          "price": "₩52,000",
+          "price": "$39",
           "remaining": "033 / 210 remaining"
         },
         {
           "name": "Network Trace Cover",
           "ip": "Ghost in the Shell",
           "status": "New",
-          "price": "¥7,400",
+          "price": "$49",
           "remaining": "149 / 500 remaining"
         }
       ]
@@ -231,7 +283,7 @@
       "titleFill": "Doraemon",
       "titleOutline": "Drop 05",
       "sub": "The playful side of the site should still feel clean. Bright blue, circular gadget motifs, and iconic pocket cues are enough when the layout carries the premium weight.",
-      "price": "From ¥5,400",
+      "price": "From $36",
       "meta": "134 / 650 remaining · JP / TW",
       "stickerA": "Friendly icon",
       "stickerB": "Future pocket",
@@ -247,14 +299,14 @@
           "name": "Anywhere Door Cover",
           "ip": "Doraemon",
           "status": "New",
-          "price": "¥5,400",
+          "price": "$36",
           "remaining": "134 / 650 remaining"
         },
         {
           "name": "Future Pocket Shell",
           "ip": "Doraemon",
           "status": "Top wishlisted",
-          "price": "NT$1,190",
+          "price": "$38",
           "remaining": "205 / 700 remaining"
         },
         {
@@ -294,14 +346,14 @@
           "name": "Night Bus Stop Cover",
           "ip": "Totoro",
           "status": "Curated",
-          "price": "¥6,100",
+          "price": "$41",
           "remaining": "042 / 240 remaining"
         },
         {
           "name": "Acorn Friends Case",
           "ip": "Totoro",
           "status": "Fresh drop",
-          "price": "NT$1,260",
+          "price": "$40",
           "remaining": "118 / 460 remaining"
         }
       ]

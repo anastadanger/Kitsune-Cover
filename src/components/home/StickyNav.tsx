@@ -12,6 +12,9 @@ export function StickyNav() {
   const pathname = usePathname();
   const locale = useLocale();
   const { collection } = useActiveCollection();
+  const onHome = pathname === "/";
+  const sectionHref = (id: string) => (onHome ? `#${id}` : `/#${id}`);
+  const studioActive = pathname === "/custom-studio";
 
   return (
     <header className="sticky top-0 z-50 border-b-[3px] border-ink bg-mist/97 backdrop-blur-md">
@@ -29,19 +32,32 @@ export function StickyNav() {
 
         <div className="flex w-full flex-wrap items-center justify-end gap-3">
           <nav className="flex flex-wrap gap-0" aria-label="Main navigation">
-            {[
-              { href: "#drops", key: "drops" as const },
-              { href: "#stories", key: "stories" as const },
-              { href: "#shop", key: "shop" as const },
-            ].map((item) => (
+            {(
+              [
+                { id: "drops", key: "drops" as const },
+                { id: "stories", key: "stories" as const },
+                { id: "shop", key: "shop" as const },
+              ] as const
+            ).map((item) => (
               <a
                 key={item.key}
-                href={item.href}
+                href={sectionHref(item.id)}
                 className="-ml-0.5 border-2 border-ink bg-paper px-3 py-2 text-[11px] font-black uppercase tracking-[0.15em] text-ink first:ml-0 hover:bg-cyber/30"
               >
                 {t(item.key)}
               </a>
             ))}
+            <Link
+              href="/custom-studio"
+              className={[
+                "-ml-0.5 border-2 border-ink px-3 py-2 text-[11px] font-black uppercase tracking-[0.15em]",
+                studioActive
+                  ? "bg-ink text-volt"
+                  : "bg-paper text-ink hover:bg-cyber/30",
+              ].join(" ")}
+            >
+              {t("customStudio")}
+            </Link>
           </nav>
 
           <div
