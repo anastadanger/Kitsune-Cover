@@ -90,7 +90,7 @@ export function Hero() {
 
         {showHeroPhone &&
           (collection.id === "evangelion" ? (
-            <div className="relative z-[2] w-[min(6804px,90%)] max-w-[min(6804px,90vw)] -rotate-[8deg]">
+            <div className="relative z-[2] w-[min(6804px,90%)] max-w-[min(6804px,90vw)] origin-center -rotate-[13deg] scale-[1.5]">
               <Image
                 src="/hero-phone-case.png"
                 alt={t("evangelion.heroImageAlt")}
