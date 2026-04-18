@@ -3,6 +3,7 @@
 import { ProductArtSvg } from "@/components/home/ProductArtSvg";
 import { useActiveCollection } from "@/components/home/CollectionProvider";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 type ProductRow = {
   name: string;
@@ -10,6 +11,10 @@ type ProductRow = {
   status: string;
   price: string;
   remaining: string;
+  /** Overrides collection label in the top-left badge (e.g. one card in a mixed drop). */
+  cardLabel?: string;
+  /** Local public path for custom product art instead of ProductArtSvg. */
+  imageSrc?: string;
 };
 
 export function ProductGrid() {
@@ -55,18 +60,33 @@ export function ProductGrid() {
               >
                 <div className="flex items-start justify-between gap-2 px-3 pb-0 pt-3 sm:gap-3 sm:px-3.5 sm:pt-3.5">
                   <span className="min-w-0 max-w-[65%] break-words border-2 border-ink bg-paper px-2 py-1.5 text-[8px] font-black uppercase leading-tight tracking-[0.14em] text-ink sm:max-w-[70%] sm:tracking-[0.18em] md:max-w-none">
-                    {t(`${k}.label`)}
+                    {p.cardLabel ?? t(`${k}.label`)}
                   </span>
                   <span className="shrink-0 pill max-w-[35%] border-2 border-ink bg-volt px-2 py-1.5 text-[7px] font-black uppercase leading-tight tracking-[0.12em] text-ink sm:max-w-none sm:px-2.5 sm:text-[8px] sm:tracking-[0.15em]">
                     {p.status}
                   </span>
                 </div>
-                <div className="relative m-3 min-h-[200px] flex-1 border-[3px] border-ink bg-paper/40 sm:m-3.5 sm:min-h-[220px] md:min-h-[240px]">
-                  <ProductArtSvg
-                    accent={collection.accent}
-                    accent2={collection.accent2}
-                    dark={i % 3 === 0}
-                  />
+                <div
+                  className={[
+                    "relative m-3 min-h-[200px] flex-1 overflow-hidden border-[3px] border-ink sm:m-3.5 sm:min-h-[220px] md:min-h-[240px]",
+                    p.imageSrc ? "bg-black" : "bg-paper/40",
+                  ].join(" ")}
+                >
+                  {p.imageSrc ? (
+                    <Image
+                      src={p.imageSrc}
+                      alt={`${p.name} — ${p.ip}`}
+                      fill
+                      sizes="(max-width: 768px) 92vw, 400px"
+                      className="object-contain object-center p-2"
+                    />
+                  ) : (
+                    <ProductArtSvg
+                      accent={collection.accent}
+                      accent2={collection.accent2}
+                      dark={i % 3 === 0}
+                    />
+                  )}
                 </div>
                 <div className="mt-auto min-w-0 px-3 pb-3.5 sm:px-3.5">
                   <p className="mb-2 text-[9px] font-black uppercase leading-snug tracking-[0.14em] opacity-90 sm:mb-2.5 sm:tracking-[0.18em]">

@@ -382,8 +382,10 @@
       "storyBody": "Three personalities, three palettes — the collab works when the graphic reads as character cosplay for your device: loud color blocks, attitude, and instant recognition.",
       "products": [
         {
-          "name": "Blossom Leader Case",
-          "ip": "The Powerpuff Girls",
+          "name": "Special Set",
+          "ip": "Sanrio Puppy Pals",
+          "cardLabel": "Sanrio Puppy Pals",
+          "imageSrc": "/tbd-drop7-card01-sanrio-pochacco.png",
           "status": "Drop live",
           "price": "$38",
           "remaining": "081 / 520 remaining"
