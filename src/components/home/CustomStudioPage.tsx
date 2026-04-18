@@ -25,7 +25,10 @@ export function CustomStudioPage() {
   const gallery = t.raw("gallery") as GalleryRow[];
 
   return (
-    <main id="top" className="min-h-[calc(100svh-54px)] bg-mist">
+    <main
+      id="top"
+      className="min-h-[calc(100svh-54px)] max-[820px]:min-h-[calc(100svh-88px)] bg-mist"
+    >
       <StickyNav />
 
       <section

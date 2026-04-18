@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import {
   Archivo_Black,
   Inter,
@@ -40,6 +40,12 @@ export const metadata: Metadata = {
   title: "Kitsune Cover — Limited Collab Case Showcase",
   description:
     "Curated showcase of limited-edition phone case collaborations, collector drops, and pop-culture stories.",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({

@@ -17,6 +17,13 @@
 
 html {
   background: var(--bg-page);
+  overflow-x: clip;
+}
+
+@supports not (overflow: clip) {
+  html {
+    overflow-x: hidden;
+  }
 }
 
 body {

@@ -62,7 +62,7 @@ export function Hero() {
 
   return (
     <section
-      className="grid min-h-[calc(100svh-54px)] grid-cols-1 border-b-[3px] border-ink lg:grid-cols-[1.1fr_.9fr]"
+      className="grid min-h-[calc(100svh-54px)] max-[820px]:min-h-[calc(100svh-88px)] grid-cols-1 border-b-[3px] border-ink lg:grid-cols-[1.1fr_.9fr]"
       aria-label="Hero"
     >
       <div
@@ -107,16 +107,16 @@ export function Hero() {
               {t(`${k}.meta`)}
             </span>
           </div>
-          <div className="flex flex-wrap gap-0">
+          <div className="flex w-full max-w-xl flex-col gap-0 sm:max-w-none sm:flex-row sm:flex-wrap">
             <a
               href="#drops"
-              className="inline-flex min-h-[52px] min-w-[140px] flex-1 items-center justify-center border-[3px] border-ink bg-volt px-4 text-[11px] font-black uppercase tracking-[0.18em] text-ink sm:flex-none"
+              className="inline-flex min-h-[48px] w-full min-w-0 items-center justify-center border-[3px] border-ink bg-volt px-4 py-3 text-[11px] font-black uppercase tracking-[0.18em] text-ink sm:min-h-[52px] sm:w-auto sm:min-w-[140px] sm:flex-none active:bg-volt/90"
             >
               {t(`${k}.ctaPrimary`)}
             </a>
             <a
               href="#stories"
-              className="-ml-[3px] inline-flex min-h-[52px] min-w-[140px] flex-1 items-center justify-center border-[3px] border-ink bg-paper px-4 text-[11px] font-black uppercase tracking-[0.18em] text-ink sm:flex-none"
+              className="-mt-[3px] inline-flex min-h-[48px] w-full min-w-0 items-center justify-center border-[3px] border-ink bg-paper px-4 py-3 text-[11px] font-black uppercase tracking-[0.18em] text-ink sm:-ml-[3px] sm:mt-0 sm:w-auto sm:min-w-[140px] sm:flex-none sm:border-t-[3px] active:bg-paper/90"
             >
               {t(`${k}.ctaSecondary`)}
             </a>
@@ -125,7 +125,7 @@ export function Hero() {
       </div>
 
       <motion.div
-        className="relative flex min-h-[320px] items-center justify-center overflow-visible p-6 lg:min-h-0"
+        className="relative flex min-h-[260px] items-center justify-center overflow-visible p-4 sm:min-h-[320px] sm:p-6 lg:min-h-0"
         animate={{ backgroundColor: collection.heroPanel }}
         transition={{ duration: 0.35, ease: "easeInOut" }}
         style={{ color: "var(--hero-ink)" }}
@@ -208,21 +208,21 @@ export function Hero() {
         <Sticker
           tone="volt"
           rotate={-8}
-          className="absolute right-[7%] top-[7%] z-[4] min-h-[54px] px-3.5 py-2.5 text-[13px] tracking-[0.04em]"
+          className="absolute right-[4%] top-[5%] z-[4] max-w-[min(200px,46vw)] min-h-[48px] px-2.5 py-2 text-[11px] tracking-[0.04em] sm:right-[7%] sm:top-[7%] sm:max-w-none sm:min-h-[54px] sm:px-3.5 sm:py-2.5 sm:text-[13px]"
         >
           {t(`${k}.stickerA`)}
         </Sticker>
         <Sticker
           tone="hot"
           rotate={9}
-          className="absolute bottom-[9%] left-[10%] z-[4] min-h-[54px] px-3.5 py-2.5 text-[13px] tracking-[0.04em]"
+          className="absolute bottom-[6%] left-[4%] z-[4] max-w-[min(200px,46vw)] min-h-[48px] px-2.5 py-2 text-[11px] tracking-[0.04em] sm:bottom-[9%] sm:left-[10%] sm:max-w-none sm:min-h-[54px] sm:px-3.5 sm:py-2.5 sm:text-[13px]"
         >
           {t(`${k}.stickerB`)}
         </Sticker>
 
         {showHeroPhone &&
           (collection.id === "evangelion" ? (
-            <div className="relative z-[2] w-[min(6804px,90%)] max-w-[min(6804px,90vw)] origin-center -rotate-[13deg] scale-[1.5]">
+            <div className="relative z-[2] w-[min(6804px,92%)] max-w-[min(6804px,92vw)] origin-center -rotate-[10deg] scale-100 sm:-rotate-[11deg] sm:scale-110 md:scale-125 lg:-rotate-[13deg] lg:scale-[1.35] xl:scale-[1.5]">
               <Image
                 src="/hero-phone-case.png"
                 alt={t("evangelion.heroImageAlt")}
@@ -230,12 +230,12 @@ export function Hero() {
                 height={1000}
                 priority
                 className="h-auto w-full object-contain [filter:drop-shadow(0_4px_0_#000)_contrast(1.2)]"
-                sizes="(max-width: 1024px) 90vw, 6804px"
+                sizes="(max-width: 640px) 92vw, (max-width: 1024px) 90vw, 6804px"
               />
             </div>
           ) : (
             <div
-              className="relative z-[2] w-[min(6156px,88%)] -rotate-[8deg] overflow-hidden rounded-[28px] border-[3px] border-ink shadow-none [aspect-ratio:10/19.5]"
+              className="relative z-[2] w-[88%] max-w-[min(320px,88vw)] -rotate-[6deg] overflow-hidden rounded-[22px] border-[3px] border-ink shadow-none [aspect-ratio:10/19.5] sm:w-[min(6156px,88%)] sm:max-w-none sm:-rotate-[8deg] sm:rounded-[28px]"
               style={{
                 background:
                   "linear-gradient(180deg, rgba(255,255,255,.78), rgba(255,255,255,.34))",

@@ -9,8 +9,8 @@ export function Footer() {
   const methods = t("payLine").split(" · ");
 
   return (
-    <footer className="border-t-[3px] border-ink bg-ink text-paper">
-      <div className="mx-auto grid max-w-content grid-cols-1 items-center gap-4 px-3.5 py-5 lg:grid-cols-[1fr_auto_auto] lg:gap-5">
+    <footer className="border-t-[3px] border-ink bg-ink pb-[max(1.25rem,env(safe-area-inset-bottom,0px))] text-paper">
+      <div className="mx-auto grid max-w-content grid-cols-1 items-center gap-4 px-4 py-5 sm:px-5 lg:grid-cols-[1fr_auto_auto] lg:gap-5">
         <div className="font-display text-[20px] font-black uppercase tracking-[-0.03em]">
           KITSUNE{" "}
           <span style={{ color: collection.accent }} className="mx-0.5">

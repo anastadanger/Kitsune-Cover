@@ -17,8 +17,8 @@ export function StickyNav() {
   const studioActive = pathname === "/custom-studio";
 
   return (
-    <header className="sticky top-0 z-50 border-b-[3px] border-ink bg-mist/97 backdrop-blur-md">
-      <div className="mx-auto flex min-h-[54px] max-w-content flex-col items-stretch justify-between gap-3 px-3.5 py-2.5 max-[820px]:items-start sm:flex-row sm:items-center sm:gap-4">
+    <header className="sticky top-0 z-50 border-b-[3px] border-ink bg-mist/97 pt-[env(safe-area-inset-top,0px)] backdrop-blur-md">
+      <div className="mx-auto flex min-h-[54px] max-w-content flex-col items-stretch justify-between gap-3 px-4 py-2.5 max-[820px]:items-start sm:flex-row sm:items-center sm:gap-4 sm:px-5">
         <Link
           href="/"
           className="shrink-0 font-display text-[20px] font-black uppercase leading-none tracking-[-0.03em] text-ink"

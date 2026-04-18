@@ -22,8 +22,8 @@ export function ProductGrid() {
 
   return (
     <section id="drops" className="border-b-[3px] border-ink bg-mist" aria-label="Drops">
-      <div className="mx-auto max-w-content">
-        <div className="flex flex-wrap items-end justify-between gap-4 pb-0 pt-6">
+      <div className="mx-auto max-w-content px-4 pb-1 pt-6 sm:px-5">
+        <div className="flex flex-col gap-4 pb-0 sm:flex-row sm:flex-wrap sm:items-end sm:justify-between">
           <div>
             <div className="mb-3 inline-block border-2 border-ink bg-hot px-2.5 pb-1.5 pt-2 text-[9px] font-black uppercase tracking-[0.22em] text-ink">
               {tSection("eyebrow")}
@@ -50,7 +50,7 @@ export function ProductGrid() {
             return (
               <article
                 key={`${collection.id}-${p.name}-${i}`}
-                className={`relative flex min-h-[470px] flex-col overflow-hidden border-[3px] border-ink ${bg}`}
+                className={`relative flex min-h-[420px] flex-col overflow-hidden border-[3px] border-ink sm:min-h-[450px] lg:min-h-[470px] ${bg}`}
               >
                 <div className="flex items-start justify-between gap-3 px-3.5 pb-0 pt-3.5">
                   <span className="inline-block border-2 border-ink bg-paper px-2 py-1.5 text-[8px] font-black uppercase tracking-[0.18em] text-ink">

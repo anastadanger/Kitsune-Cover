@@ -23,7 +23,8 @@ const config: Config = {
         kr: ["var(--font-noto-kr)", "var(--font-inter)", "sans-serif"],
       },
       maxWidth: {
-        content: "min(1400px, calc(100% - 28px))",
+        content:
+          "min(1400px, calc(100vw - clamp(20px, 6vw, 56px)))",
       },
     },
   },
