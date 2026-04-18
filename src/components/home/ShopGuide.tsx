@@ -14,7 +14,7 @@ export function ShopGuide() {
 
   return (
     <section id="shop" className="border-b-[3px] border-ink bg-mist">
-      <div className="mx-auto max-w-content px-4 py-6 sm:px-5">
+      <div className="mx-auto max-w-content px-3 py-6 sm:px-5">
         <div className="flex flex-col gap-4 pb-0 pt-0 sm:flex-row sm:flex-wrap sm:items-end sm:justify-between">
           <div>
             <div className="mb-3 inline-block border-2 border-ink bg-hot px-2.5 pb-1.5 pt-2 text-[9px] font-black uppercase tracking-[0.22em] text-ink">

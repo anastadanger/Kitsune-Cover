@@ -23,8 +23,9 @@ const config: Config = {
         kr: ["var(--font-noto-kr)", "var(--font-inter)", "sans-serif"],
       },
       maxWidth: {
+        /* На телефоне чуть шире полезная ширина: меньше «полей», больше места карточкам */
         content:
-          "min(1400px, calc(100vw - clamp(20px, 6vw, 56px)))",
+          "min(1400px, calc(100vw - clamp(12px, 4vw, 48px)))",
       },
     },
   },
