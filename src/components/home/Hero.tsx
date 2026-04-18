@@ -11,14 +11,32 @@ export function Hero() {
   const { collection, activeIndex } = useActiveCollection();
   const k = collection.nameKey;
   const showHeroPhone = activeIndex === 0;
+  const murakamiHeroBg = collection.id === "hello-kitty";
 
   return (
     <section
       className="grid min-h-[calc(100svh-54px)] grid-cols-1 border-b-[3px] border-ink lg:grid-cols-[1.1fr_.9fr]"
       aria-label="Hero"
     >
-      <div className="relative flex items-center border-b-[3px] border-ink bg-paper px-[clamp(22px,4vw,56px)] py-8 lg:border-b-0 lg:border-r-[3px]">
-        <div>
+      <div
+        className={[
+          "relative flex h-full min-h-0 items-center overflow-hidden border-b-[3px] border-ink px-[clamp(22px,4vw,56px)] py-8 lg:border-b-0 lg:border-r-[3px]",
+          murakamiHeroBg ? "" : "bg-paper",
+        ].join(" ")}
+      >
+        {murakamiHeroBg && (
+          <div className="pointer-events-none absolute inset-0 z-0" aria-hidden>
+            <Image
+              src="/murakami-drop2-hero-bg.png"
+              alt=""
+              fill
+              sizes="(max-width: 1024px) 100vw, 55vw"
+              className="object-cover object-[52%_42%]"
+            />
+            <div className="absolute inset-0 bg-gradient-to-br from-[#ffffff]/[0.93] via-[#ffffff]/[0.82] to-[#ffffff]/[0.72]" />
+          </div>
+        )}
+        <div className="relative z-[1]">
           <div className="mb-[18px] inline-block border-2 border-ink bg-hot px-2.5 pb-1.5 pt-2 text-[9px] font-black uppercase tracking-[0.22em] text-ink">
             {t(`${k}.eyebrow`)}
           </div>
