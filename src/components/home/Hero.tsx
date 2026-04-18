@@ -326,7 +326,7 @@ export function Hero() {
 
         {collection.id === "tbd" && (
           <motion.div
-            className="relative z-[2] flex w-[min(100%,720px)] max-w-[min(92vw,720px)] items-center justify-center px-2"
+            className="relative z-[2] flex w-[min(100%,480px)] max-w-[min(94vw,480px)] items-center justify-center px-2"
             animate={{ y: [0, -5, 0] }}
             transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
           >
@@ -336,8 +336,8 @@ export function Hero() {
               width={1024}
               height={1024}
               priority
-              className="h-auto w-full max-h-[min(87vh,780px)] origin-center rotate-[10deg] object-contain [filter:drop-shadow(0_8px_0_rgba(0,0,0,0.28))]"
-              sizes="(max-width: 1024px) 92vw, (max-width: 1536px) 720px, 900px"
+              className="h-auto w-full max-h-[min(65vh,520px)] origin-center rotate-[10deg] object-contain [filter:drop-shadow(0_8px_0_rgba(0,0,0,0.28))]"
+              sizes="(max-width: 1024px) 92vw, 480px"
             />
           </motion.div>
         )}
