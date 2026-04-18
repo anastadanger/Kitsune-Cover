@@ -11,7 +11,54 @@ export function Hero() {
   const { collection, activeIndex } = useActiveCollection();
   const k = collection.nameKey;
   const showHeroPhone = activeIndex === 0;
-  const murakamiHeroBg = collection.id === "hello-kitty";
+
+  const leftHeroBg =
+    collection.id === "evangelion"
+      ? {
+          src: "/evangelion-drop1-hero-bg.png",
+          imgClass: "object-cover object-[50%_36%]",
+        }
+      : collection.id === "hello-kitty"
+        ? {
+            src: "/murakami-drop2-hero-bg.png",
+            imgClass: "object-cover object-[52%_42%]",
+          }
+        : collection.id === "sailor-moon"
+          ? {
+              src: "/susan-fang-drop3-hero-bg.png",
+              imgClass: "object-cover object-[50%_42%]",
+              overlayClass:
+                "absolute inset-0 bg-gradient-to-br from-[#ffffff]/[0.88] via-[#ffffff]/[0.74] to-[#ffffff]/[0.60]",
+            }
+          : collection.id === "ghost"
+            ? {
+                src: "/ssebong-drop4-hero-bg.png",
+                imgClass: "object-cover object-[50%_44%]",
+                overlayClass:
+                  "absolute inset-0 bg-gradient-to-br from-[#ffffff]/[0.90] via-[#ffffff]/[0.78] to-[#ffffff]/[0.65]",
+              }
+            : collection.id === "doraemon"
+              ? {
+                  src: "/one-piece-drop5-hero-bg.png",
+                  imgClass: "object-cover object-[50%_46%]",
+                  overlayClass:
+                    "absolute inset-0 bg-gradient-to-br from-[#ffffff]/[0.96] via-[#ffffff]/[0.90] to-[#f3f3f3]/[0.80]",
+                }
+              : collection.id === "totoro"
+                ? {
+                    src: "/ann-marie-coolick-drop6-hero-bg.png",
+                    imgClass: "object-cover object-[48%_44%]",
+                    overlayClass:
+                      "absolute inset-0 bg-gradient-to-br from-[#ffffff]/[0.89] via-[#ffffff]/[0.76] to-[#faf8ff]/[0.62]",
+                  }
+                : collection.id === "tbd"
+                  ? {
+                      src: "/powerpuff-girls-drop7-hero-bg.png",
+                      imgClass: "object-cover object-[50%_46%]",
+                      overlayClass:
+                        "absolute inset-0 bg-gradient-to-br from-[#ffffff]/[0.91] via-[#ffffff]/[0.80] to-[#fff5fb]/[0.68]",
+                    }
+                  : null;
 
   return (
     <section
@@ -21,19 +68,24 @@ export function Hero() {
       <div
         className={[
           "relative flex h-full min-h-0 items-center overflow-hidden border-b-[3px] border-ink px-[clamp(22px,4vw,56px)] py-8 lg:border-b-0 lg:border-r-[3px]",
-          murakamiHeroBg ? "" : "bg-paper",
+          leftHeroBg ? "" : "bg-paper",
         ].join(" ")}
       >
-        {murakamiHeroBg && (
+        {leftHeroBg && (
           <div className="pointer-events-none absolute inset-0 z-0" aria-hidden>
             <Image
-              src="/murakami-drop2-hero-bg.png"
+              src={leftHeroBg.src}
               alt=""
               fill
               sizes="(max-width: 1024px) 100vw, 55vw"
-              className="object-cover object-[52%_42%]"
+              className={leftHeroBg.imgClass}
             />
-            <div className="absolute inset-0 bg-gradient-to-br from-[#ffffff]/[0.93] via-[#ffffff]/[0.82] to-[#ffffff]/[0.72]" />
+            <div
+              className={
+                leftHeroBg.overlayClass ??
+                "absolute inset-0 bg-gradient-to-br from-[#ffffff]/[0.93] via-[#ffffff]/[0.82] to-[#ffffff]/[0.72]"
+              }
+            />
           </div>
         )}
         <div className="relative z-[1]">
