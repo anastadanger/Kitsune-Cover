@@ -47,12 +47,13 @@ export function ProductGrid() {
         <div className="grid grid-cols-1 gap-0 pb-6 pt-5 md:grid-cols-2 xl:grid-cols-3">
           {products.map((p, i) => {
             const mod = i % 3;
-            const bg =
-              mod === 0
-                ? "bg-ink text-paper"
-                : mod === 1
-                  ? "bg-paper text-ink"
-                  : "bg-[var(--collab-accent)] text-ink";
+            /** Первый столбец по умолчанию тёмный; если в слоте своё фото (imageSrc), стиль как у 02/03. */
+            const isDarkTile = mod === 0 && !p.imageSrc;
+            const bg = isDarkTile
+              ? "bg-ink text-paper"
+              : mod === 2
+                ? "bg-[var(--collab-accent)] text-ink"
+                : "bg-paper text-ink";
             return (
               <article
                 key={`${collection.id}-${p.name}-${i}`}
@@ -66,12 +67,7 @@ export function ProductGrid() {
                     {p.status}
                   </span>
                 </div>
-                <div
-                  className={[
-                    "relative m-3 min-h-[200px] flex-1 overflow-hidden border-[3px] border-ink sm:m-3.5 sm:min-h-[220px] md:min-h-[240px]",
-                    p.imageSrc ? "bg-black" : "bg-paper/40",
-                  ].join(" ")}
-                >
+                <div className="relative m-3 min-h-[200px] flex-1 overflow-hidden border-[3px] border-ink bg-paper/40 sm:m-3.5 sm:min-h-[220px] md:min-h-[240px]">
                   {p.imageSrc ? (
                     <Image
                       src={p.imageSrc}
@@ -84,7 +80,7 @@ export function ProductGrid() {
                     <ProductArtSvg
                       accent={collection.accent}
                       accent2={collection.accent2}
-                      dark={i % 3 === 0}
+                      dark={isDarkTile}
                     />
                   )}
                 </div>
