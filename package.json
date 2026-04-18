@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "knockout:murakami": "node scripts/knockout-murakami-bg.mjs",
-    "knockout:susan-tablet": "node scripts/knockout-susan-tablet.mjs"
+    "knockout:susan-tablet": "node scripts/knockout-susan-tablet.mjs",
+    "knockout:tbd-card01": "node scripts/knockout-tbd-card01.mjs"
   },
   "dependencies": {
     "framer-motion": "^11.11.17",

@@ -68,21 +68,23 @@ export function ProductGrid() {
                   </span>
                 </div>
                 <div className="relative m-3 min-h-[200px] flex-1 overflow-hidden border-[3px] border-ink bg-paper/40 sm:m-3.5 sm:min-h-[220px] md:min-h-[240px]">
+                  <ProductArtSvg
+                    accent={collection.accent}
+                    accent2={collection.accent2}
+                    dark={isDarkTile}
+                  />
                   {p.imageSrc ? (
-                    <Image
-                      src={p.imageSrc}
-                      alt={`${p.name} — ${p.ip}`}
-                      fill
-                      sizes="(max-width: 768px) 92vw, 400px"
-                      className="object-contain object-center p-2"
-                    />
-                  ) : (
-                    <ProductArtSvg
-                      accent={collection.accent}
-                      accent2={collection.accent2}
-                      dark={isDarkTile}
-                    />
-                  )}
+                    <div className="absolute inset-0 z-[1] flex items-center justify-center p-2 sm:p-3">
+                      <Image
+                        src={p.imageSrc}
+                        alt={`${p.name} — ${p.ip}`}
+                        width={1024}
+                        height={1024}
+                        sizes="(max-width: 768px) 85vw, 360px"
+                        className="h-auto max-h-[78%] w-auto max-w-[88%] object-contain"
+                      />
+                    </div>
+                  ) : null}
                 </div>
                 <div className="mt-auto min-w-0 px-3 pb-3.5 sm:px-3.5">
                   <p className="mb-2 text-[9px] font-black uppercase leading-snug tracking-[0.14em] opacity-90 sm:mb-2.5 sm:tracking-[0.18em]">
