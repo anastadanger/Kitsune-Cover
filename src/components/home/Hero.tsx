@@ -8,9 +8,8 @@ import { useTranslations } from "next-intl";
 
 export function Hero() {
   const t = useTranslations("collectionDrops");
-  const { collection, activeIndex } = useActiveCollection();
+  const { collection } = useActiveCollection();
   const k = collection.nameKey;
-  const showHeroPhone = activeIndex === 0;
 
   const leftHeroBg =
     collection.id === "evangelion"
@@ -220,60 +219,37 @@ export function Hero() {
           {t(`${k}.stickerB`)}
         </Sticker>
 
-        {showHeroPhone &&
-          (collection.id === "evangelion" ? (
-            <div className="relative z-[2] w-[min(6804px,92%)] max-w-[min(6804px,92vw)] origin-center -rotate-[10deg] scale-100 sm:-rotate-[11deg] sm:scale-110 md:scale-125 lg:-rotate-[13deg] lg:scale-[1.35] xl:scale-[1.5]">
-              <Image
-                src="/hero-phone-case.png"
-                alt={t("evangelion.heroImageAlt")}
-                width={1000}
-                height={1000}
-                priority
-                className="h-auto w-full object-contain [filter:drop-shadow(0_4px_0_#000)_contrast(1.2)]"
-                sizes="(max-width: 640px) 92vw, (max-width: 1024px) 90vw, 6804px"
-              />
-            </div>
-          ) : (
-            <div
-              className="relative z-[2] w-[88%] max-w-[min(320px,88vw)] -rotate-[6deg] overflow-hidden rounded-[22px] border-[3px] border-ink shadow-none [aspect-ratio:10/19.5] sm:w-[min(6156px,88%)] sm:max-w-none sm:-rotate-[8deg] sm:rounded-[28px]"
-              style={{
-                background:
-                  "linear-gradient(180deg, rgba(255,255,255,.78), rgba(255,255,255,.34))",
-              }}
-              aria-hidden
-            >
-              <div
-                className="absolute inset-[10px] rounded-[22px] border-2 border-ink opacity-90"
-                style={{
-                  background: `
-                radial-gradient(circle at 20% 20%, var(--collab-accent-2) 0 16%, transparent 17%),
-                radial-gradient(circle at 70% 25%, #fff 0 13%, transparent 14%),
-                radial-gradient(circle at 48% 68%, #000 0 11%, transparent 12%),
-                linear-gradient(135deg, rgba(255,255,255,.8), rgba(255,255,255,.2))`,
-                }}
-              />
-              <div
-                className="absolute inset-[22px] overflow-hidden rounded-[18px] border-2 border-dashed border-ink"
-                style={{
-                  background: `
-                repeating-linear-gradient(0deg, rgba(255,255,255,.16) 0 14px, transparent 14px 28px),
-                repeating-linear-gradient(90deg, rgba(0,0,0,.10) 0 14px, transparent 14px 28px),
-                linear-gradient(135deg, var(--collab-accent), var(--collab-accent-2))`,
-                }}
-              >
-                <div className="absolute -left-5 top-[38%] h-[190px] w-[190px] rounded-full border-[3px] border-ink bg-paper/40" />
-                <div className="absolute right-3.5 top-[18px] h-[120px] w-[120px] rounded-full border-[3px] border-ink bg-volt/75" />
-              </div>
-              <div className="absolute left-4 top-[18px] z-[5] h-[104px] w-[86px] rounded-[18px] border-[3px] border-ink bg-paper/85">
-                <span className="absolute left-3 top-3.5 h-6 w-6 rounded-full border-[3px] border-ink bg-ink" />
-                <span className="absolute right-3 top-3.5 h-6 w-6 rounded-full border-[3px] border-ink bg-ink" />
-                <span className="absolute bottom-4 left-7 h-6 w-6 rounded-full border-[3px] border-ink bg-ink" />
-              </div>
-              <div className="absolute bottom-[18px] right-3.5 z-[6] border-2 border-ink bg-paper px-2.5 py-2 text-[9px] font-black uppercase tracking-[0.18em] text-ink">
-                {t(`${k}.phoneTag`)}
-              </div>
-            </div>
-          ))}
+        {collection.id === "evangelion" && (
+          <div className="relative z-[2] w-[min(6804px,92%)] max-w-[min(6804px,92vw)] origin-center -rotate-[10deg] scale-100 sm:-rotate-[11deg] sm:scale-110 md:scale-125 lg:-rotate-[13deg] lg:scale-[1.35] xl:scale-[1.5]">
+            <Image
+              src="/hero-phone-case.png"
+              alt={t("evangelion.heroImageAlt")}
+              width={1000}
+              height={1000}
+              priority
+              className="h-auto w-full object-contain [filter:drop-shadow(0_4px_0_#000)_contrast(1.2)]"
+              sizes="(max-width: 640px) 92vw, (max-width: 1024px) 90vw, 6804px"
+            />
+          </div>
+        )}
+
+        {collection.id === "hello-kitty" && (
+          <motion.div
+            className="relative z-[2] flex w-[min(100%,420px)] max-w-[min(92vw,420px)] items-center justify-center px-2"
+            animate={{ y: [0, -6, 0] }}
+            transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
+          >
+            <Image
+              src="/murakami-drop02-headphones.png"
+              alt={t(`${k}.heroHeadphonesAlt`)}
+              width={800}
+              height={800}
+              priority
+              className="h-auto w-full max-h-[min(52vh,420px)] object-contain [filter:drop-shadow(0_6px_0_rgba(0,0,0,0.25))]"
+              sizes="(max-width: 1024px) 92vw, 420px"
+            />
+          </motion.div>
+        )}
       </motion.div>
     </section>
   );
