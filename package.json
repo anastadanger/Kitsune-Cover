@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "knockout:murakami": "node scripts/knockout-murakami-bg.mjs"
+    "knockout:murakami": "node scripts/knockout-murakami-bg.mjs",
+    "knockout:susan-tablet": "node scripts/knockout-susan-tablet.mjs",
+    "knockout:powerpuff": "node scripts/knockout-powerpuff-phone.mjs"
   },
   "dependencies": {
     "framer-motion": "^11.11.17",

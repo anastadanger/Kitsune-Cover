@@ -25,7 +25,8 @@ export function Hero() {
         : collection.id === "sailor-moon"
           ? {
               src: "/susan-fang-drop3-hero-bg.png",
-              imgClass: "object-cover object-[50%_42%]",
+              imgClass:
+                "object-cover object-[50%_42%] origin-[50%_42%] scale-[2]",
               overlayClass:
                 "absolute inset-0 bg-gradient-to-br from-[#ffffff]/[0.88] via-[#ffffff]/[0.74] to-[#ffffff]/[0.60]",
             }
@@ -235,7 +236,7 @@ export function Hero() {
 
         {collection.id === "hello-kitty" && (
           <motion.div
-            className="relative z-[2] flex w-[min(100%,420px)] max-w-[min(92vw,420px)] items-center justify-center px-2"
+            className="relative z-[2] flex w-[min(100%,660px)] max-w-[min(94vw,660px)] items-center justify-center px-2"
             animate={{ y: [0, -6, 0] }}
             transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
           >
@@ -245,8 +246,98 @@ export function Hero() {
               width={800}
               height={800}
               priority
-              className="h-auto w-full max-h-[min(52vh,420px)] object-contain [filter:drop-shadow(0_6px_0_rgba(0,0,0,0.25))]"
-              sizes="(max-width: 1024px) 92vw, 420px"
+              className="h-auto w-full max-h-[min(52vh,420px)] origin-center scale-[1.5] -rotate-[10deg] object-contain [filter:drop-shadow(0_6px_0_rgba(0,0,0,0.25))]"
+              sizes="(max-width: 1024px) 94vw, 660px"
+            />
+          </motion.div>
+        )}
+
+        {collection.id === "sailor-moon" && (
+          <motion.div
+            className="relative z-[2] flex w-[min(100%,520px)] max-w-[min(94vw,520px)] items-center justify-center px-2"
+            animate={{ y: [0, -5, 0] }}
+            transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+          >
+            <Image
+              src="/susan-fang-drop3-tablet.png"
+              alt={t(`${k}.heroTabletAlt`)}
+              width={560}
+              height={560}
+              priority
+              className="h-auto w-full max-h-[min(56vh,440px)] origin-center rotate-[10deg] object-contain [filter:drop-shadow(0_6px_0_rgba(0,0,0,0.22))]"
+              sizes="(max-width: 1024px) 94vw, 520px"
+            />
+          </motion.div>
+        )}
+
+        {collection.id === "ghost" && (
+          <motion.div
+            className="relative z-[2] flex w-[min(100%,1280px)] max-w-[min(98vw,1280px)] items-center justify-center px-1 sm:px-2"
+            animate={{ y: [0, -5, 0] }}
+            transition={{ duration: 5.8, repeat: Infinity, ease: "easeInOut" }}
+          >
+            <Image
+              src="/ssebong-drop04-macbook.png"
+              alt={t(`${k}.heroMacbookAlt`)}
+              width={1000}
+              height={1000}
+              priority
+              className="h-auto w-full max-h-[min(104vh,920px)] origin-center -rotate-[4deg] object-contain [filter:drop-shadow(0_10px_0_rgba(0,0,0,0.18))]"
+              sizes="(max-width: 1024px) 98vw, 1280px"
+            />
+          </motion.div>
+        )}
+
+        {collection.id === "totoro" && (
+          <motion.div
+            className="relative z-[2] flex w-[min(100%,720px)] max-w-[min(92vw,720px)] items-center justify-center px-2"
+            animate={{ y: [0, -5, 0] }}
+            transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
+          >
+            <Image
+              src="/ann-marie-coolick-hero-case.png"
+              alt={t(`${k}.heroLogoAlt`)}
+              width={1000}
+              height={1000}
+              priority
+              className="h-auto w-full max-h-[min(93vh,840px)] origin-center -rotate-[8deg] object-contain [filter:drop-shadow(0_10px_0_rgba(0,0,0,0.18))]"
+              sizes="(max-width: 1024px) 92vw, 720px"
+            />
+          </motion.div>
+        )}
+
+        {collection.id === "doraemon" && (
+          <motion.div
+            className="relative z-[2] flex w-[min(100%,720px)] max-w-[min(92vw,720px)] items-center justify-center px-2"
+            animate={{ y: [0, -5, 0] }}
+            transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
+          >
+            <Image
+              src="/one-piece-drop5-phone.png"
+              alt={t(`${k}.heroPhoneAlt`)}
+              width={1000}
+              height={1000}
+              priority
+              className="h-auto w-full max-h-[min(87vh,780px)] origin-center -rotate-[10deg] object-contain [filter:drop-shadow(0_8px_0_rgba(0,0,0,0.32))]"
+              sizes="(max-width: 1024px) 92vw, 720px"
+            />
+          </motion.div>
+        )}
+
+        {collection.id === "tbd" && (
+          <motion.div
+            className="relative z-[2] flex w-[min(100%,720px)] max-w-[min(92vw,720px)] items-center justify-center px-2"
+            animate={{ y: [0, -5, 0] }}
+            transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
+          >
+            <Image
+              src="/powerpuff-girls-drop7-phone.png"
+              alt={t(`${k}.heroPhoneAlt`)}
+              width={1024}
+              height={1024}
+              priority
+              className="h-auto w-full max-h-[min(87vh,780px)] origin-center rotate-[10deg] object-contain [filter:drop-shadow(0_8px_0_rgba(0,0,0,0.28))]"
+              sizes="(max-width: 1024px) 92vw, (max-width: 1536px) 720px, 900px"
             />
           </motion.div>
         )}
