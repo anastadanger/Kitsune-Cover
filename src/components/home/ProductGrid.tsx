@@ -1,9 +1,16 @@
 "use client";
 
 import { ProductArtSvg } from "@/components/home/ProductArtSvg";
+import { ProductSpecBars } from "@/components/home/ProductSpecBars";
 import { useActiveCollection } from "@/components/home/CollectionProvider";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+
+type ProductSpec = {
+  label: string;
+  /** 0–100 */
+  fill: number;
+};
 
 type ProductRow = {
   name: string;
@@ -15,6 +22,10 @@ type ProductRow = {
   cardLabel?: string;
   /** Local public path for custom product art instead of ProductArtSvg. */
   imageSrc?: string;
+  /** Omit to hide the protection bar on this card. */
+  protection?: ProductSpec;
+  /** Omit to hide the weight bar on this card. */
+  weight?: ProductSpec;
 };
 
 export function ProductGrid() {
@@ -93,6 +104,11 @@ export function ProductGrid() {
                   <h3 className="mb-3 font-display text-[1.15rem] font-black uppercase leading-[1.15] tracking-[-0.03em] text-balance sm:text-xl md:text-2xl xl:text-[26px] xl:leading-[0.98]">
                     {p.name}
                   </h3>
+                  <ProductSpecBars
+                    protection={p.protection}
+                    weight={p.weight}
+                    tone={isDarkTile ? "dark" : "light"}
+                  />
                   <div className="mb-3 flex flex-col gap-2 sm:mb-3.5 sm:flex-row sm:items-end sm:justify-between sm:gap-3">
                     <div className="font-display text-2xl font-black leading-none sm:text-[26px] md:text-[28px]">
                       {p.price}

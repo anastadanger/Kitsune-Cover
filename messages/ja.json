@@ -145,21 +145,45 @@
           "ip": "Evangelion",
           "status": "Drop live",
           "price": "$45",
-          "remaining": "48 / 500 remaining"
+          "remaining": "48 / 500 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         },
         {
           "name": "NERV Alert Shell",
           "ip": "Evangelion",
           "status": "Editor pick",
           "price": "$48",
-          "remaining": "115 / 400 remaining"
+          "remaining": "115 / 400 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         },
         {
           "name": "Geo Front Grid Cover",
           "ip": "Evangelion",
           "status": "Low stock",
           "price": "$44",
-          "remaining": "029 / 250 remaining"
+          "remaining": "029 / 250 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         }
       ]
     },
@@ -186,21 +210,45 @@
           "ip": "TAKASHI MURAKAMI",
           "status": "Restock",
           "price": "$29",
-          "remaining": "120 / 700 remaining"
+          "remaining": "120 / 700 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         },
         {
           "name": "Kiki Edge Grip Shell",
           "ip": "TAKASHI MURAKAMI",
           "status": "Hot now",
           "price": "$39",
-          "remaining": "061 / 300 remaining"
+          "remaining": "061 / 300 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         },
         {
           "name": "Superflat Duo Mirror Case",
           "ip": "TAKASHI MURAKAMI",
           "status": "Collector note",
           "price": "$40",
-          "remaining": "088 / 450 remaining"
+          "remaining": "088 / 450 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         }
       ]
     },
@@ -227,21 +275,45 @@
           "ip": "SUSAN FANG",
           "status": "Editor pick",
           "price": "$42",
-          "remaining": "073 / 420 remaining"
+          "remaining": "073 / 420 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         },
         {
           "name": "Petal Veil Shell",
           "ip": "SUSAN FANG",
           "status": "Fresh drop",
           "price": "$44",
-          "remaining": "156 / 600 remaining"
+          "remaining": "156 / 600 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         },
         {
           "name": "Aurora Ribbon Case",
           "ip": "SUSAN FANG",
           "status": "Almost gone",
           "price": "$42",
-          "remaining": "021 / 280 remaining"
+          "remaining": "021 / 280 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         }
       ]
     },
@@ -268,21 +340,45 @@
           "ip": "SSEBONG",
           "status": "Curated pick",
           "price": "$46",
-          "remaining": "064 / 360 remaining"
+          "remaining": "064 / 360 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         },
         {
           "name": "Low Energy Shell",
           "ip": "SSEBONG",
           "status": "Low stock",
           "price": "$39",
-          "remaining": "033 / 210 remaining"
+          "remaining": "033 / 210 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         },
         {
           "name": "Small Chaos Cover",
           "ip": "SSEBONG",
           "status": "New",
           "price": "$49",
-          "remaining": "149 / 500 remaining"
+          "remaining": "149 / 500 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         }
       ]
     },
@@ -309,21 +405,45 @@
           "ip": "ONE PIECE",
           "status": "New",
           "price": "$36",
-          "remaining": "134 / 650 remaining"
+          "remaining": "134 / 650 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         },
         {
           "name": "Devil Fruit Mark Shell",
           "ip": "ONE PIECE",
           "status": "Top wishlisted",
           "price": "$38",
-          "remaining": "205 / 700 remaining"
+          "remaining": "205 / 700 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         },
         {
           "name": "Jolly Roger Grid Cover",
           "ip": "ONE PIECE",
           "status": "Editor pick",
           "price": "$34",
-          "remaining": "099 / 350 remaining"
+          "remaining": "099 / 350 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         }
       ]
     },
@@ -350,21 +470,45 @@
           "ip": "ANN MARIE COOLICK",
           "status": "Low stock",
           "price": "$38",
-          "remaining": "081 / 390 remaining"
+          "remaining": "081 / 390 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         },
         {
           "name": "Bouquet Ridge Shell",
           "ip": "ANN MARIE COOLICK",
           "status": "Curated",
           "price": "$41",
-          "remaining": "042 / 240 remaining"
+          "remaining": "042 / 240 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         },
         {
           "name": "Palette Garden Cover",
           "ip": "ANN MARIE COOLICK",
           "status": "Fresh drop",
           "price": "$40",
-          "remaining": "118 / 460 remaining"
+          "remaining": "118 / 460 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         }
       ]
     },
@@ -392,21 +536,45 @@
           "cardLabel": "Sanrio Puppy Pals",
           "status": "Drop live",
           "price": "$38",
-          "remaining": "081 / 520 remaining"
+          "remaining": "081 / 520 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         },
         {
           "name": "Bubbles Shine Shell",
           "ip": "The Powerpuff Girls",
           "status": "Hot now",
           "price": "$40",
-          "remaining": "142 / 600 remaining"
+          "remaining": "142 / 600 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         },
         {
           "name": "Buttercup Edge Cover",
           "ip": "The Powerpuff Girls",
           "status": "Editor pick",
           "price": "$36",
-          "remaining": "067 / 400 remaining"
+          "remaining": "067 / 400 remaining",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 28
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 28
+          }
         }
       ]
     }
