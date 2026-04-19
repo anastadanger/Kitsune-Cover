@@ -24,28 +24,6 @@ export function ProductArtSvg({ accent, accent2, dark = false }: Props) {
         stroke="#000"
         strokeWidth="6"
       />
-      <rect
-        x="128"
-        y="44"
-        width="152"
-        height="192"
-        rx="18"
-        fill="#fff"
-        fillOpacity="0.75"
-        stroke="#000"
-        strokeWidth="6"
-      />
-      <rect
-        x="144"
-        y="60"
-        width="120"
-        height="160"
-        rx="12"
-        fill="none"
-        stroke="#000"
-        strokeWidth="4"
-        strokeDasharray="12 8"
-      />
       <path d="M56 54H130" stroke="#000" strokeWidth="8" />
       <path d="M300 220H360" stroke="#000" strokeWidth="8" />
       <text x="26" y="32" fontSize="18" fontFamily="Arial Black, Arial" fill={fg}>
