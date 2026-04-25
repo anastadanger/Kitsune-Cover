@@ -40,6 +40,9 @@ export const metadata: Metadata = {
   title: "Kitsune Cover — Limited Collab Case Showcase",
   description:
     "Curated showcase of limited-edition phone case collaborations, collector drops, and pop-culture stories.",
+  verification: {
+    google: "VosvsovTGmko6akIHln-8qU5QCCvb3DIv80OqqDw_mM",
+  },
 };
 
 export const viewport: Viewport = {
