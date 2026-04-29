@@ -141,48 +141,51 @@
       "storyBody": "Built on industrial caution-strip energy and sleek sci-fi tension, Evangelion collabs work when they feel engineered — not cutesy. The right case design should echo control panels, warning graphics, and emotional severity.",
       "products": [
         {
-          "name": "Unit-01 Frame Case",
-          "ip": "Evangelion",
+          "name": "Welcome to NERV Tablet Case",
+          "ip": "EVANGELION",
           "status": "Drop live",
-          "price": "$45",
-          "remaining": "48 / 500 remaining",
+          "price": "$93,99",
+          "imageStem": "EVANGELION",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta_full&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fwelcome-to-nerv-tablet-case%2Fipad-pro-13-2024%2Fultra-impact-folio-case%3Fartwork_name%3Dwelcome-to-nerv-tablet-case%26device%3Dipad-pro-13-2024%26product%3Dultra-impact-folio-case%23%2F16007367",
           "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
+            "label": "Protection: Strong",
+            "fill": 90
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Mid",
+            "fill": 56
           }
         },
         {
-          "name": "NERV Alert Shell",
-          "ip": "Evangelion",
+          "name": "Evangelion Sticker Earbuds Case",
+          "ip": "EVANGELION",
           "status": "Editor pick",
-          "price": "$48",
-          "remaining": "115 / 400 remaining",
+          "price": "$46,99",
+          "imageStem": "EVANGELION2",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta_full&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fevangelion-sticker-earbuds-case%2Fairpods-pro-3%2Fairpods-ultra-impact-case%3Fartwork_name%3Devangelion-sticker-earbuds-case%26device%3Dairpods-pro-3%26product%3Dairpods-ultra-impact-case%23%2F16010212",
           "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
+            "label": "Protection: Strong",
+            "fill": 90
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Light",
+            "fill": 80
           }
         },
         {
-          "name": "Geo Front Grid Cover",
-          "ip": "Evangelion",
-          "status": "Low stock",
-          "price": "$44",
-          "remaining": "029 / 250 remaining",
+          "name": "Mari Makinami Illustrious",
+          "ip": "EVANGELION",
+          "status": "Hot now",
+          "price": "$72,99",
+          "imageStem": "EVANGELION3",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta_full&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fevangelion-custom-character-case-phone-case-mari-makinami-illustrious%2Fiphone-17-pro-max%2Fmagsafe-compatible-impact-case%3Fartwork_name%3Devangelion-custom-character-case-phone-case-mari-makinami-illustrious%26device%3Diphone-17-pro-max%26product%3Dmagsafe-compatible-impact-case%23%2F16009391",
           "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
+            "label": "Protection: Strong",
+            "fill": 90
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Light",
+            "fill": 80
           }
         }
       ]
@@ -206,48 +209,51 @@
       "storyBody": "Murakami’s Kaikai and Kiki translate naturally to tech: bold planes of color, character tension, and gallery-scale energy scaled into something you carry every day.",
       "products": [
         {
-          "name": "Kaikai Bloom Impact Case",
+          "name": "KAIKAI COLLECTIBLE EARBUDS CASE",
           "ip": "TAKASHI MURAKAMI",
-          "status": "Restock",
-          "price": "$29",
-          "remaining": "120 / 700 remaining",
+          "status": "Low stock",
+          "price": "€312.99",
+          "imageStem": "TAKASHI MURAKAMI",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta_full&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fkaikai-and-kiki-collectible-earbuds-case%2316010091%3Fartwork_name%3Dkaikai-and-kiki-collectible-earbuds-case",
           "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
+            "label": "Protection: Strong",
+            "fill": 90
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Mid",
+            "fill": 56
           }
         },
         {
-          "name": "Kiki Edge Grip Shell",
+          "name": "FLOWERS STICKERMANIA SET",
           "ip": "TAKASHI MURAKAMI",
-          "status": "Hot now",
-          "price": "$39",
-          "remaining": "061 / 300 remaining",
+          "status": "Fresh drop",
+          "price": "€156.97",
+          "imageStem": "TAKASHI MURAKAMI2",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta_full&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fflowers-stickermania-set%3Fartwork_name%3Dflowers-stickermania-set%23%2F16010921",
           "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
+            "label": "Protection: Strong",
+            "fill": 90
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Mid",
+            "fill": 56
           }
         },
         {
-          "name": "Superflat Duo Mirror Case",
+          "name": "KAIKAI AND KIKI PHONE",
           "ip": "TAKASHI MURAKAMI",
-          "status": "Collector note",
-          "price": "$40",
-          "remaining": "088 / 450 remaining",
+          "status": "Curated pick",
+          "price": "€50.99",
+          "imageStem": "TAKASHI MURAKAMI3",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta_full&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fkaikai-and-kiki-dangler-blind-box-set%3Fartwork_name%3Dkaikai-and-kiki-dangler-blind-box-set%23%2F16011510",
           "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
+            "label": "Protection: Strong",
+            "fill": 90
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Mid",
+            "fill": 56
           }
         }
       ]
@@ -271,48 +277,52 @@
       "storyBody": "Fang’s language of light, layers, and infinity symbols reads like jewelry — perfect for a case that sits between runway and daily carry.",
       "products": [
         {
-          "name": "Infinity Bloom Clear Case",
+          "name": "SUSAN FANG Lavender Mist Special Set",
+          "ip": "SUSAN FANG",
+          "status": "Partner pick",
+          "price": "€175.98",
+          "imageStem": "SUSAN FANG",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fsusan-fang-lavender-mist-special-set%3Fartwork_name%3Dsusan-fang-lavender-mist-special-set%23%2F16011462",
+          "priceWas": "€190.97",
+          "protection": {
+            "label": "Protection: Strong",
+            "fill": 90
+          },
+          "weight": {
+            "label": "Weight: Mid",
+            "fill": 56
+          }
+        },
+        {
+          "name": "SUSAN FANG Rose Quarts Reflection Case",
+          "ip": "SUSAN FANG",
+          "status": "Drop live",
+          "price": "€72.99",
+          "imageStem": "SUSAN FANG2",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fsusan-fang-rose-quarts-reflection-case%2Fiphone-17-pro-max%2Fmetallic-glaze-case-magsafe-compatible%3Fartwork_name%3Dsusan-fang-rose-quarts-reflection-case%26device%3Diphone-17-pro-max%26product%3Dmetallic-glaze-case-magsafe-compatible%23%2F16011132",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 48
+          },
+          "weight": {
+            "label": "Weight: Light",
+            "fill": 80
+          }
+        },
+        {
+          "name": "SUSAN FANG Opal Dream Case",
           "ip": "SUSAN FANG",
           "status": "Editor pick",
-          "price": "$42",
-          "remaining": "073 / 420 remaining",
+          "price": "€72.99",
+          "imageStem": "SUSAN FANG3",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fsusan-fang-opal-dream-case%2Fiphone-17-pro-max%2Fmetallic-glaze-case-magsafe-compatible%3Fartwork_name%3Dsusan-fang-opal-dream-case%26device%3Diphone-17-pro-max%26product%3Dmetallic-glaze-case-magsafe-compatible%23%2F16011132",
           "protection": {
             "label": "Protection: Basic",
-            "fill": 28
+            "fill": 48
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
-          }
-        },
-        {
-          "name": "Petal Veil Shell",
-          "ip": "SUSAN FANG",
-          "status": "Fresh drop",
-          "price": "$44",
-          "remaining": "156 / 600 remaining",
-          "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
-          },
-          "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
-          }
-        },
-        {
-          "name": "Aurora Ribbon Case",
-          "ip": "SUSAN FANG",
-          "status": "Almost gone",
-          "price": "$42",
-          "remaining": "021 / 280 remaining",
-          "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
-          },
-          "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Light",
+            "fill": 80
           }
         }
       ]
@@ -336,48 +346,51 @@
       "storyBody": "When illustration speaks in memes and rest, the case becomes a mood board — gentle color, loose line, and humor that lands without trying too hard.",
       "products": [
         {
-          "name": "Lazy Duck Day Case",
+          "name": "Relax Time",
           "ip": "SSEBONG",
-          "status": "Curated pick",
-          "price": "$46",
-          "remaining": "064 / 360 remaining",
+          "status": "Hot now",
+          "price": "€72.99",
+          "imageStem": "SSEBONG",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Frelax-time-phone-case%2Fiphone-17-pro-max%2Fclear-case%3Fartwork_name%3Drelax-time-phone-case%26device%3Diphone-17-pro-max%26product%3Dclear-case%23%2F16009421",
           "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
+            "label": "Protection: Strong",
+            "fill": 90
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Light",
+            "fill": 80
           }
         },
         {
-          "name": "Low Energy Shell",
+          "name": "Social Energy",
           "ip": "SSEBONG",
           "status": "Low stock",
-          "price": "$39",
-          "remaining": "033 / 210 remaining",
+          "price": "€72.99",
+          "imageStem": "SSEBONG2",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fsocial-energy-phone-case%2Fiphone-17-pro-max%2Fglaze-case-magsafe-compatible%3Fartwork_name%3Dsocial-energy-phone-case%26device%3Diphone-17-pro-max%26product%3Dglaze-case-magsafe-compatible%23%2F16010199",
           "protection": {
             "label": "Protection: Basic",
-            "fill": 28
+            "fill": 48
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Light",
+            "fill": 80
           }
         },
         {
-          "name": "Small Chaos Cover",
+          "name": "Every Night",
           "ip": "SSEBONG",
-          "status": "New",
-          "price": "$49",
-          "remaining": "149 / 500 remaining",
+          "status": "Fresh drop",
+          "price": "€46.99",
+          "imageStem": "SSEBONG3",
+          "affiliateHref": "https://www.casetify.com/product/every-night-earbuds-case-atwgp1/airpods-pro-3/airpods-ultra-impact-case?artwork_name=every-night-earbuds-case-atwgp1&device=airpods-pro-3&product=airpods-ultra-impact-case#/16010212",
           "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
+            "label": "Protection: Strong",
+            "fill": 90
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Light",
+            "fill": 80
           }
         }
       ]
@@ -401,48 +414,47 @@
       "storyBody": "Iconography from the series scales well to cases: bold silhouettes, emblematic marks, and color blocking that reads from across the room.",
       "products": [
         {
-          "name": "Straw Hat Crest Case",
+          "name": "New Four Emperors Case",
           "ip": "ONE PIECE",
-          "status": "New",
-          "price": "$36",
-          "remaining": "134 / 650 remaining",
+          "status": "Curated pick",
+          "price": "€88.99",
+          "imageStem": "ONE PIECE",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta_full&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fnew-four-emperors-case%2Fiphone-17-pro-max%2Fimpact-ring-stand-case-magsafe-compatible%3Fartwork_name%3Dnew-four-emperors-case%26device%3Diphone-17-pro-max%26product%3Dimpact-ring-stand-case-magsafe-compatible%23%2F16009407",
           "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
+            "label": "Protection: Strong",
+            "fill": 90
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Mid",
+            "fill": 56
           }
         },
         {
-          "name": "Devil Fruit Mark Shell",
+          "name": "WANTED Luffy Case",
           "ip": "ONE PIECE",
-          "status": "Top wishlisted",
-          "price": "$38",
-          "remaining": "205 / 700 remaining",
+          "status": "Partner pick",
+          "price": "€88.99",
+          "imageStem": "ONE PIECE2",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta_full&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fwanted-luffy-case%2Fiphone-17-pro-max%2Fimpact-ring-stand-case-magsafe-compatible%3Fartwork_name%3Dwanted-luffy-case%26device%3Diphone-17-pro-max%26product%3Dimpact-ring-stand-case-magsafe-compatible%23%2F16009407",
           "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
+            "label": "Protection: Strong",
+            "fill": 90
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Mid",
+            "fill": 56
           }
         },
         {
-          "name": "Jolly Roger Grid Cover",
+          "name": "Devil Fruits Label Sticker Watch Band",
           "ip": "ONE PIECE",
-          "status": "Editor pick",
-          "price": "$34",
-          "remaining": "099 / 350 remaining",
-          "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
-          },
+          "status": "Drop live",
+          "price": "€51.99",
+          "imageStem": "ONE PIECE3",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta_full&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fdevil-fruits-label-sticker-watch-band%2Fapple-watch-series-4-6-40mm%2Fimpact-band%3Fartwork_name%3Ddevil-fruits-label-sticker-watch-band%26device%3Dapple-watch-series-4-6-40mm%26product%3Dimpact-band%23%2F16007710",
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Light",
+            "fill": 80
           }
         }
       ]
@@ -466,48 +478,51 @@
       "storyBody": "Thick brush energy and floral motion translate surprisingly well to print — the case becomes a canvas you carry, not a flat graphic.",
       "products": [
         {
-          "name": "Hydrangea Impasto Case",
+          "name": "Wild Squill Flowers",
+          "ip": "ANN MARIE COOLICK",
+          "status": "Editor pick",
+          "price": "€56.99",
+          "imageStem": "ANN MARIE COOLICK",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fwild-squill-flowers%2Fiphone-17-pro-max%2Fglaze-ring-stand-case-magsafe-compatible%3Fartwork_name%3Dwild-squill-flowers%26device%3Diphone-16-pro-max%26product%3Dmagsafe-compatible-impact-case%23%2F16010608",
+          "protection": {
+            "label": "Protection: Basic",
+            "fill": 48
+          },
+          "weight": {
+            "label": "Weight: Very Light",
+            "fill": 94
+          }
+        },
+        {
+          "name": "Deep Blue Seas",
+          "ip": "ANN MARIE COOLICK",
+          "status": "Hot now",
+          "price": "€72.99",
+          "imageStem": "ANN MARIE COOLICK2",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fdeep-blue-seas-phone-cases%2Fiphone-17-pro-max%2Fcompact-case-magsafe-compatible%3Fartwork_name%3Ddeep-blue-seas-phone-cases%26device%3Dsamsung-galaxy-s24-ultra%26product%3Dclear-cases%23%2F16009425",
+          "protection": {
+            "label": "Protection: Strong",
+            "fill": 90
+          },
+          "weight": {
+            "label": "Weight: Light",
+            "fill": 80
+          }
+        },
+        {
+          "name": "Polka Daub Smear",
           "ip": "ANN MARIE COOLICK",
           "status": "Low stock",
-          "price": "$38",
-          "remaining": "081 / 390 remaining",
+          "price": "€72.99",
+          "imageStem": "ANN MARIE COOLICK3",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fpolka-daub-smear%2Fiphone-17-pro-max%2Fmagsafe-compatible-impact-case%3Fartwork_name%3Dpolka-daub-smear%26device%3Diphone-16-pro-max%26product%3Dmagsafe-compatible-impact-case%23%2F16009391",
           "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
+            "label": "Protection: Strong",
+            "fill": 90
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
-          }
-        },
-        {
-          "name": "Bouquet Ridge Shell",
-          "ip": "ANN MARIE COOLICK",
-          "status": "Curated",
-          "price": "$41",
-          "remaining": "042 / 240 remaining",
-          "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
-          },
-          "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
-          }
-        },
-        {
-          "name": "Palette Garden Cover",
-          "ip": "ANN MARIE COOLICK",
-          "status": "Fresh drop",
-          "price": "$40",
-          "remaining": "118 / 460 remaining",
-          "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
-          },
-          "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Light",
+            "fill": 80
           }
         }
       ]
@@ -531,49 +546,52 @@
       "storyBody": "Three personalities, three palettes — the collab works when the graphic reads as character cosplay for your device: loud color blocks, attitude, and instant recognition.",
       "products": [
         {
-          "name": "Special Set",
-          "ip": "Sanrio Puppy Pals",
-          "cardLabel": "Sanrio Puppy Pals",
-          "status": "Drop live",
-          "price": "$38",
-          "remaining": "081 / 520 remaining",
+          "name": "The Powerpuff Girls Special Set",
+          "ip": "POWERPUFF GIRLS",
+          "status": "Fresh drop",
+          "price": "€135.98",
+          "imageStem": "POWERPUFF GIRLS",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fthe-powerpuff-girls-special-set%3Fartwork_name%3Dthe-powerpuff-girls-special-set%23%2F16011285",
+          "priceWas": "€150.97",
           "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
+            "label": "Protection: Strong",
+            "fill": 90
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Light",
+            "fill": 80
           }
         },
         {
-          "name": "Bubbles Shine Shell",
-          "ip": "The Powerpuff Girls",
-          "status": "Hot now",
-          "price": "$40",
-          "remaining": "142 / 600 remaining",
+          "name": "The Powerpuff Girls Mirror Snappy Cardholder Stand",
+          "ip": "POWERPUFF GIRLS",
+          "status": "Curated pick",
+          "price": "€41.99",
+          "imageStem": "POWERPUFF GIRLS2",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fthe-powerpuff-girls-mirror-snappy-cardholder-stand%2Fsnappy-cardholder-stand%2Fsnappy-mirror-cardholder-stand-magsafe-compatible%3Fartwork_name%3Dthe-powerpuff-girls-mirror-snappy-cardholder-stand%26device%3Dsnappy-cardholder-stand%26product%3Dsnappy-mirror-cardholder-stand-magsafe-compatible%23%2F16006465",
           "protection": {
-            "label": "Protection: Basic",
-            "fill": 28
+            "label": "Protection: Strong",
+            "fill": 90
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Light",
+            "fill": 80
           }
         },
         {
-          "name": "Buttercup Edge Cover",
-          "ip": "The Powerpuff Girls",
-          "status": "Editor pick",
-          "price": "$36",
-          "remaining": "067 / 400 remaining",
+          "name": "The Powerpuff Girls Heart Case",
+          "ip": "POWERPUFF GIRLS",
+          "status": "Partner pick",
+          "price": "€88.99",
+          "imageStem": "POWERPUFF GIRLS3",
+          "affiliateHref": "https://bywiola.com/g/tv8h1uy8nie28d06ce312f7a77e67e/?subid=anasta&ulp=https%3A%2F%2Fwww.casetify.com%2Fproduct%2Fthe-powerpuff-girls-heart-case%2Fiphone-17-pro-max%2Fglaze-case-magsafe-compatible%3Fartwork_name%3Dthe-powerpuff-girls-heart-case%26device%3Diphone-17-pro-max%26product%3Dglaze-case-magsafe-compatible%23%2F16010199",
           "protection": {
             "label": "Protection: Basic",
-            "fill": 28
+            "fill": 48
           },
           "weight": {
-            "label": "Weight: Very Light",
-            "fill": 28
+            "label": "Weight: Mid",
+            "fill": 56
           }
         }
       ]
